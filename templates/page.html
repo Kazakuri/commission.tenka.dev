@@ -1,0 +1,82 @@
+{% extends "index.html" %}
+
+{% import "data_table.html" as data_table %}
+
+{% block meta %}
+
+{% if page.lang == config.default_language %}
+  {% set cover = page.components[0] ~ "/" ~ page.components[1] ~ "/image.png" %}
+{% else %}
+  {% set cover = page.components[1] ~ "/" ~ page.components[2] ~ "/image.png" %}
+{% endif %}
+
+<meta name="title" content="{{ page.title }}">
+<meta name="description" content="{{ page.content | striptags | truncate(length=100) }}">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.permalink }}">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.content | striptags | truncate(length=100) }}">
+<meta property="og:image" content="{{ resize_image(path=cover, width=1200, height=628, op="fill") }}">
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ page.permalink }}">
+<meta property="twitter:title" content="{{ page.title }}">
+<meta property="twitter:description" content="{{ page.content | striptags | truncate(length=100) }}">
+<meta property="twitter:image" content="{{ resize_image(path=cover, width=1200, height=628, op="fill") }}">
+{% endblock meta %}
+
+{% block content %}
+
+{% if page.lang == config.default_language %}
+  {% set cover = page.components[0] ~ "/" ~ page.components[1] ~ "/image.png" %}
+{% else %}
+  {% set cover = page.components[1] ~ "/" ~ page.components[2] ~ "/image.png" %}
+{% endif %}
+
+<div class="post-item">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date(format=date_format) }}</span>
+
+  <div class="post-body">
+
+    <div class="post-data">
+      {% if page.extra.images %}
+        <div class="images">
+          {% for image in page.extra.images %}
+
+            {% if page.lang == config.default_language %}
+              {% set i = page.components[0] ~ "/" ~ page.components[1] ~ "/" ~ image %}
+            {% else %}
+              {% set i = page.components[1] ~ "/" ~ page.components[2] ~ "/" ~ image %}
+            {% endif %}
+
+            <a href="{{ image }}">
+              <img src="{{ resize_image(path=i, height=700, op="fit_height") }}" />
+            </a>
+          {% endfor %}
+        </div>
+      {% else %}
+        <div class="images">
+          <a href="image.png">
+            <img src="{{ resize_image(path=cover, height=700, op="fit_height") }}" />
+          </a>
+        </div>
+      {% endif %}
+
+      {{ data_table::data_table() }}
+    </div>
+
+    <div class="post-content">
+      {{ page.content | safe }}
+    </div>
+    
+    {% if page.extra.skeb_handle and lang == "en" %}
+    <div class="notice">
+      Skeb is a Japanese site that aims to simplify commissioning artists. There isn't any sort of sketch reviewing phase or opportunity for corrections to be made, but it helps the process be very streamlined. For non-Japanese speaking clients, they do provide an auto-translation function (though I've never tried it) as well as plenty of quality of life features.
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock content %}
+

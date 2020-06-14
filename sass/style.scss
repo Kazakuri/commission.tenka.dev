@@ -1,0 +1,421 @@
+
+$background: #f7fafc;
+$navbar-background: linear-gradient(90deg, #da6783 0%, #ee8694 100%);
+$navbar-foreground: #efefef;
+$header: #242629;
+$text: #333333;
+$accent: #da6783;
+
+/* Reset */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media (min-width: 38em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  color: #515151;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+/* No `:visited` state is required by default (browsers will use `a`) */
+a {
+  color: #268bd2;
+  text-decoration: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Body text */
+p {
+  margin: 0.75rem 0;
+}
+
+strong {
+  color: #303030;
+}
+
+
+/* Lists */
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
+}
+
+/* Misc */
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid $header;
+  border-bottom: 0;
+  width: 100%;
+  opacity: 0.75;
+}
+
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+}
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+/* Quotes */
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+/* Tables */
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+html {
+  font-family: Source Sans Pro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue;
+}
+
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+@media (min-width: 48em) {
+  .content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+
+body {
+  background: $background;
+  color: $text;
+}
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+
+.container {
+  padding-left:  2rem;
+  padding-right: 2rem;
+  margin-left:  auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  background: $navbar-background;
+  color: $navbar-foreground;
+
+  span {
+    color: $navbar-foreground;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: -0.025rem;
+  }
+
+  svg {
+    fill: $navbar-foreground;
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+
+  .lang a {
+    color: $navbar-foreground;
+    font-size: 0.75rem;
+  }
+}
+
+
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+@media screen and (max-width: 1112px) {
+  .posts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .post span.heading.title {
+    font-size: 1em;
+  }
+
+  .post {
+    border-bottom: 1px solid $accent;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .posts {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+.page,
+.post,
+.post-item {
+  padding: 5px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.post-item {
+  padding: 5px 4rem;
+}
+
+/* Blog post or page title */
+.page-title,
+.post-title,
+.post-title a {
+  color: $header;
+}
+.page-title,
+.post-title {
+  margin-top: 0;
+}
+
+.post span.heading {
+  font-size: 0.75em;
+  color: $text;
+  display: block;
+  text-align: center;
+
+  &.title {
+    font-weight: bold;
+  }
+}
+
+.request {
+  margin: 1em;
+  padding: 0.25em;
+  display: block;
+  background: #fefefe;
+  border: 1px solid $accent;
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  b { 
+    display: block;
+  }
+}
+
+.notice {
+  margin: 1em;
+  padding: 0.25em;
+  display: block;
+  background: #fefefe;
+  border: 1px solid $accent;
+
+  &:before {
+    content: "Note";
+    display: block;
+    font-weight: bold;
+  }
+}
+
+/* Meta data line below post title */
+.post-date {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: $text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $header;
+  
+  &:after {
+    content: "";
+    display: block;
+    height: 5px;
+    margin-top: 2px;
+    background: $navbar-background;
+    border-radius: 5px;
+  }
+}
+
+
+.post-data {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid $accent;
+
+  .images {
+    flex: 1;
+  }
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+
+  a {
+    margin: 0 2.5%;
+  }
+
+  img {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+}
+
+.table {
+  margin: 0.75rem;
+  width: 350px;
+  border: 1px solid $accent;
+  border-collapse: collapse;
+  padding: 5px;
+
+  tr {
+    border: none;
+    border-bottom: 1px solid e5e5e5;
+  }
+
+  td, th {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .post-data {
+    flex-direction: column;
+  }
+
+  .post-item {
+    padding: 5px 0;
+  }
+
+  .table {
+    width: 100%;
+  }
+}

@@ -1,0 +1,114 @@
+{% block html %}
+{% set lang = lang | default(value=config.default_language) %}
+{% set date_format = trans(key="date_format", lang=lang) %}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+  <title>
+    {% block title %}
+      {{ trans(key="title", lang=lang) }}
+    {% endblock title %}
+  </title>
+
+  {% block meta %}
+  <meta name="title" content="{{ trans(key="title", lang=lang) }}">
+  <meta name="description" content="{{ trans(key="description", lang=lang) }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://commission.tenka.dev/">
+  <meta property="og:title" content="{{ trans(key="title", lang=lang) }}">
+  <meta property="og:description" content="{{ trans(key="description", lang=lang) }}">
+  <meta property="og:image" content="https://commission.tenka.dev/banner.jpg">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://commission.tenka.dev/">
+  <meta property="twitter:title" content="{{ trans(key="title", lang=lang) }}">
+  <meta property="twitter:description" content="{{ trans(key="description", lang=lang) }}">
+  <meta property="twitter:image" content="https://commission.tenka.dev/banner.jpg">
+  {% endblock meta %}
+
+  <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
+
+  {% if config.generate_rss %}
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+  {% endif %}
+
+  {% block extra_head %}
+  {% endblock extra_head %}
+</head>
+<body>
+  {% block navbar %}
+    <nav>
+      {% if lang == config.default_language %}
+        <a href="{{ config.base_url }}">
+      {% else %}
+        <a href="{{ config.base_url }}/{{ lang }}">
+      {% endif %}
+        <span>
+          {{ trans(key="title", lang=lang) }}
+        </span>
+      </a>
+      <div class="lang">
+        {% if page %}
+          {% if page.lang == "en" %}
+            <a href="">English</a> ／
+          {% else %}
+            {% for translation in page.translations %}
+              {% if translation.lang == "en" %}
+                <a href="{{ translation.permalink }}" class="dropdown-item">
+                  English
+                </a> ／
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          
+          {% if page.lang == "ja" %}
+            <a href="">日本語</a>
+          {% else %}
+            {% for translation in page.translations %}
+              {% if translation.lang == "ja" %}
+                <a href="{{ translation.permalink }}" class="dropdown-item">
+                  日本語
+                </a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% else %}
+          <a href="{{ config.base_url }}">English</a> ／
+          <a href="{{ config.base_url }}/ja">日本語</a>
+        {% endif %}
+      </div>
+    </nav>
+  {% endblock navbar %}
+  <div class="content container">
+    {% block content %}
+      {% for path in section.subsections %}
+        {% set section = get_section(path=path) %}
+        <h2> {{ section.title }} </h2>
+        <div class="posts">
+          {% for page in section.pages %}
+            {% if page.lang == config.default_language %}
+              {% set cover = page.components[0] ~ "/" ~ page.components[1] ~ "/image.png" %}
+            {% else %}
+              {% set cover = page.components[1] ~ "/" ~ page.components[2] ~ "/image.png" %}
+            {% endif %}
+            {% set date = page.date | date(format=date_format) %}
+            <div class="post">
+              <a href="{{ page.permalink }}" title="{{ page.title ~ " - " ~ date }}">
+                <span class="heading title"> {{ page.title }} </span>
+                <img src="{{ resize_image(path=cover, width=500, height=500, format="jpg") }}" />
+                <span class="heading"> {{ date }} </span>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    {% endblock content %}
+  </div>
+</body>
+</html>
+{% endblock html %}

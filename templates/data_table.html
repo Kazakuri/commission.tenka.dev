@@ -1,0 +1,75 @@
+{% macro data_table() %}
+  {% set date_format = trans(key="date_format", lang=lang) %}
+  <table class="table">
+    {% if page.extra.accepted_date %}
+    <tr>
+      <th> {{ trans(key="accepted", lang=lang) }} </th>
+      <td> {{ page.extra.accepted_date | date(format=date_format) }} </td>
+    </tr>
+    {% endif %}
+    <tr>
+      <th> {{ trans(key="completed", lang=lang) }} </th>
+      <td> {{ page.date | date(format=date_format) }} </td>
+    </tr>
+    {% if page.extra.accepted_date %}
+    {% set end = page.date | date(format="%s") | int %}
+    {% set start = page.extra.accepted_date | date(format="%s") | int %}
+    <tr>
+      <th> {{ trans(key="duration", lang=lang) }} </th>
+      <td> 
+        {{ (end - start) / 86400 | float }}{{ trans(key="days", lang=lang) }}
+      </td>
+    </tr>
+    {% endif %}
+    {% if page.extra.twitter_handle %}
+    <tr>
+      <th> {{ trans(key="twitter", lang=lang) }} </th>
+      <td>
+        <a href="https://twitter.com/{{ page.extra.twitter_handle }}">
+          @{{ page.extra.twitter_handle }}
+        </a> 
+      </td>
+    </tr>
+    {% endif %}
+    {% if page.extra.skeb_handle %}
+    <tr>
+      <th> {{ trans(key="skeb", lang=lang) }} </th>
+      <td>
+        <a href="https://skeb.jp/@{{ page.extra.skeb_handle }}">
+          @{{ page.extra.skeb_handle }}
+        </a> 
+      </td>
+    </tr>
+    {% endif %}
+    {% if page.extra.pixiv_id %}
+    <tr>
+      <th> {{ trans(key="pixiv", lang=lang) }} </th>
+      <td>
+        <a href="https://www.pixiv.net/users/{{ page.extra.pixiv_id }}">
+          {{ page.extra.pixiv_id }}
+        </a> 
+      </td>
+    </tr>
+    {% endif %}
+    {% if page.extra.artistsnclients_handle %}
+    <tr>
+      <th> {{ trans(key="artistsnclients", lang=lang) }} </th>
+      <td>
+        <a href="https://artistsnclients.com/people/{{ page.extra.artistsnclients_handle }}">
+          {{ page.extra.artistsnclients_handle }}
+        </a> 
+      </td>
+    </tr>
+    {% endif %}
+    {% if page.extra.fiverr_url %}
+    <tr>
+      <th> {{ trans(key="fiverr", lang=lang) }} </th>
+      <td>
+        <a href="https://www.fiverr.com/{{ page.extra.fiverr_url }}">
+          {{ page.extra.fiverr_url }}
+        </a> 
+      </td>
+    </tr>
+    {% endif %}
+  </table>
+{% endmacro data_table %}

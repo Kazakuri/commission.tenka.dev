@@ -1,0 +1,4 @@
+public
+static/processed_images
+content/artwork/*/*.png
+node_modules
