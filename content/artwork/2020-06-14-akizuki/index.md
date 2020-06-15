@@ -1,6 +1,6 @@
 +++
 date = 2020-06-14T00:00:00.000Z
-title = "あきづき"
+title = "Akizuki"
 slug = "2020-06-14-akizuki"
 
 [extra]
