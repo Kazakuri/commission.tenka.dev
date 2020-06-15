@@ -4,6 +4,7 @@ title = "あきづき"
 slug = "2020-06-14-akizuki"
 
 [extra]
+nsfw = true
 accepted_date = 2020-06-09T00:00:00.000Z
 twitter_handle = "akizuki71"
 skeb_handle = "akizuki71"

@@ -419,3 +419,46 @@ h6 {
     width: 100%;
   }
 }
+
+.post > a > div {
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+div.nsfw {
+  overflow: hidden;
+
+  &::after {
+    content: "NSFW";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(50% + 1em);
+    text-align: center;
+    transition: opacity 250ms linear;
+    padding-top: calc(50% - 1em);
+    font-size: 1em;
+    background: rgba(0, 0, 0, 0.33);
+    border-radius: 5px;
+    color: white;
+  }
+
+  &:hover {
+    img {
+      filter: blur(0);
+    }
+
+    &::after {
+      opacity: 0;
+    }
+  }
+
+  img {
+    filter: blur(5px);
+    transition: filter 250ms linear;
+  }
+}

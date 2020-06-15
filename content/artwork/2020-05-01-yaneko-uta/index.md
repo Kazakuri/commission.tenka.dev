@@ -4,6 +4,7 @@ title = "Yaneko Uta"
 slug = "2020-05-01-yaneko-uta"
 
 [extra]
+nsfw = true
 accepted_date = 2020-04-25T00:00:00.000Z
 twitter_handle = "atu_okenay"
 skeb_handle = "atu_okenay"

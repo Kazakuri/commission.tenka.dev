@@ -4,6 +4,7 @@ title = "きよ蔵"
 slug = "2020-03-29-Kiyotan"
 
 [extra]
+nsfw = true
 accepted_date = 2020-03-16T00:00:00.000Z
 twitter_handle = "kiyotan_1107"
 skeb_handle = "kiyotan_1107"

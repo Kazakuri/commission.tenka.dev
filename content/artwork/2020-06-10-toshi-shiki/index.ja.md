@@ -4,6 +4,7 @@ title = "歳四季"
 slug = "2020-06-10-toshi-shiki"
 
 [extra]
+nsfw = true
 accepted_date = 2020-06-09T00:00:00.000Z
 twitter_handle = "toshishiki1"
 skeb_handle = "toshishiki1"
