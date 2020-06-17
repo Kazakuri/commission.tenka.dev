@@ -10,7 +10,7 @@ skeb_handle = "sinker8c"
 pixiv_id = "12429243"
 +++
 
-Since Valentine's day was closing in, I wanted to see Tenka-chan showing off a bit of her dere side. For this request, I ended up going back to Bonyuu Cheese no Natsu because their art really is incredible and I thought that they could create an adorable lovey-dovey version of Tenka. Naturally it ended up being even better than I could have ever imagined.
+Since Valentine's day is closing in, I wanted to see Tenka-chan showing off a bit of her dere side. For this request, I ended up going back to Natsu because their art really is incredible and I was certain they would create an adorable lovey-dovey version of Tenka. It ended up being even better than I could have ever imagined, and I’m so happy that went back to them for a second request. Next time, I’ll request an illustration of Illya, since I know just how much Natsu loves her.
 
 {% request() %}
 Bonyuu Cheese no Natsu Sensei, I'll be in your care again! This time I'd like to ask you to draw Tenka Adachi from Shoujo Ramune again.
