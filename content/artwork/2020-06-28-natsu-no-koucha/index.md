@@ -9,6 +9,10 @@ accepted_date = 2020-06-07T00:00:00.000Z
 twitter_handle = "natsu_koucha"
 skeb_handle = "natsu_koucha"
 pixiv_id = "118535"
+images = [
+  "image.png",
+  "image2.png"
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
