@@ -1,10 +1,10 @@
 +++
-date = 2019-12-06T00:00:00.000Z
+date = 2019-12-06T15:11:04.000Z
 title = "Bonyuu Cheese no Natsu"
 slug = "2019-12-06-bonyuu-cheese-no-natsu"
 
 [extra]
-accepted_date = 2019-11-30T00:00:00.000Z
+accepted_date = 2019-12-01T01:27:44.000Z
 twitter_handle = "sinker8c"
 skeb_handle = "sinker8c"
 pixiv_id = "12429243"

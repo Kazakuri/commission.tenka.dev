@@ -1,10 +1,10 @@
 +++
-date = 2020-01-11T00:00:00.000Z
+date = 2020-01-11T07:13:00.000Z
 title = "Crika117"
 slug = "2020-01-11-crika117"
 
 [extra]
-accepted_date = 2019-12-27T00:00:00.000Z
+accepted_date = 2019-12-28T02:12:00.000Z
 twitter_handle = "crika117"
 fiverr_url = "crika117"
 images = [

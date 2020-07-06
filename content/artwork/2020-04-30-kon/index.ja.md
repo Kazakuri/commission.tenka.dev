@@ -1,10 +1,10 @@
 +++
-date = 2020-04-30T00:00:00.000Z
+date = 2020-04-30T12:23:33.000Z
 title = "球根"
 slug = "2020-04-30-kon"
 
 [extra]
-accepted_date = 2020-03-29T00:00:00.000Z
+accepted_date = 2020-03-19T04:09:25.000Z
 twitter_handle = "usanagi_o"
 skeb_handle = "usanagi_kon"
 pixiv_id = "12272873"

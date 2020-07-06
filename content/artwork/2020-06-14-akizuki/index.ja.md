@@ -1,11 +1,11 @@
 +++
-date = 2020-06-14T00:00:00.000Z
+date = 2020-06-14T12:53:22.000Z
 title = "あきづき"
 slug = "2020-06-14-akizuki"
 
 [extra]
 nsfw = true
-accepted_date = 2020-06-09T00:00:00.000Z
+accepted_date = 2020-06-08T11:03:53.000Z
 twitter_handle = "akizuki71"
 skeb_handle = "akizuki71"
 pixiv_id = "11722207"

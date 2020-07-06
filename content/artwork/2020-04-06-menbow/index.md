@@ -1,10 +1,10 @@
 +++
-date = 2020-04-06T00:00:00.000Z
+date = 2020-04-06T09:43:53.000Z
 title = "Menbow"
 slug = "2020-04-06-menbow"
 
 [extra]
-accepted_date = 2020-02-23T00:00:00.000Z
+accepted_date = 2020-02-23T06:21:32.000Z
 twitter_handle = "menbow150"
 skeb_handle = "menbow150"
 pixiv_id = "4116954"

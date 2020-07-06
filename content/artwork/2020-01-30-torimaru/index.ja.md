@@ -1,10 +1,10 @@
 +++
-date = 2020-01-30T00:00:00.000Z
+date = 2020-01-30T12:57:30.000Z
 title = "とりまる"
 slug = "2020-01-30-torimaru"
 
 [extra]
-accepted_date = 2020-01-08T00:00:00.000Z
+accepted_date = 2020-01-08T05:58:06.000Z
 twitter_handle = "risveglio"
 skeb_handle = "risveglio"
 pixiv_id = "463194"

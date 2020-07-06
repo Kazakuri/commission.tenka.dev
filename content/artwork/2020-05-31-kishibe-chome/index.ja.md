@@ -1,10 +1,10 @@
 +++
-date = 2020-05-31T00:00:00.000Z
+date = 2020-05-31T09:01:00.000Z
 title = "岸辺ちょめ"
 slug = "2020-05-31-kishibe-chome"
 
 [extra]
-accepted_date = 2020-05-20T00:00:00.000Z
+accepted_date = 2020-05-20T09:20:22.000Z
 twitter_handle = "kishibe_chome"
 skeb_handle = "kishibe_chome"
 pixiv_id = "2430094"

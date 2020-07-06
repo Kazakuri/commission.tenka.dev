@@ -1,10 +1,10 @@
 +++
-date = 2020-05-24T00:00:00.000Z
+date = 2020-05-24T13:05:52.000Z
 title = "てぃえむ"
 slug = "2020-05-24-tiemu"
 
 [extra]
-accepted_date = 2020-05-19T00:00:00.000Z
+accepted_date = 2020-05-19T11:06:47.000Z
 twitter_handle = "teliemu190"
 skeb_handle = "teliemu190"
 pixiv_id = "2012778"

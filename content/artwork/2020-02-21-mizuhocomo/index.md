@@ -1,10 +1,10 @@
 +++
-date = 2020-02-21T00:00:00.000Z
+date = 2020-02-21T22:04:49.000Z
 title = "Mizuho Como"
 slug = "2020-02-21-mizuhocomo"
 
 [extra]
-accepted_date = 2020-02-19T00:00:00.000Z
+accepted_date = 2020-02-19T23:16:00.000Z
 twitter_handle = "comodarobo"
 skeb_handle = "comodarobo"
 pixiv_id = "32916"

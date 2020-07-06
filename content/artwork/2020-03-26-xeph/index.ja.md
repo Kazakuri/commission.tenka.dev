@@ -1,10 +1,10 @@
 +++
-date = 2020-03-26T00:00:00.000Z
+date = 2020-03-26T15:29:00.000Z
 title = "Xeph"
 slug = "2020-03-26-xeph"
 
 [extra]
-accepted_date = 2020-03-20T00:00:00.000Z
+accepted_date = 2020-03-20T05:53:00.000Z
 twitter_handle = "Xeph_Artworks"
 twitch_url = "https://www.twitch.tv/xephart"
 pixiv_id = "110174"

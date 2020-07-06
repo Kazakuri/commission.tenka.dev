@@ -1,10 +1,10 @@
 +++
-date = 2020-06-26T00:00:00.000Z
+date = 2020-06-26T11:51:58.000Z
 title = "いなみ"
 slug = "2020-06-26-inami"
 
 [extra]
-accepted_date = 2020-06-22T00:00:00.000Z
+accepted_date = 2020-06-23T03:48:49.000Z
 twitter_handle = "__173xx"
 skeb_handle = "__173xx"
 pixiv_id = "1685328"

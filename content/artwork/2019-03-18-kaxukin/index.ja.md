@@ -1,10 +1,10 @@
 +++
-date = 2019-03-18T00:00:00.000Z
+date = 2019-03-18T12:25:00.000Z
 title = "Kaxukin"
 slug = "2019-03-18-kaxukin"
 
 [extra]
-accepted_date = 2019-02-27T00:00:00.000Z
+accepted_date = 2019-02-27T16:06:00.000Z
 twitter_handle = "kaxukin"
 pixiv_id = "7337686"
 +++

@@ -1,10 +1,10 @@
 +++
-date = 2020-04-28T00:00:00.000Z
+date = 2020-04-28T15:26:40.000Z
 title = "くろな"
 slug = "2020-04-28-kurona"
 
 [extra]
-accepted_date = 2020-04-17T00:00:00.000Z
+accepted_date = 2020-04-17T12:57:53.000Z
 twitter_handle = "kuronase"
 skeb_handle = "kurona"
 pixiv_id = "2812"

@@ -1,10 +1,10 @@
 +++
-date = 2020-07-04T00:00:00.000Z
+date = 2020-07-04T11:45:43.000Z
 title = "綾倉けい"
 slug = "2020-07-04-ayakura-kei"
 
 [extra]
-accepted_date = 2020-05-24T00:00:00.000Z
+accepted_date = 2020-05-24T13:46:11.000Z
 twitter_handle = "Ayakura_1907"
 skeb_handle = "Ayakura_maki"
 pixiv_id = "31949962"

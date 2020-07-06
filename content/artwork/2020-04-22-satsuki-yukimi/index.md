@@ -1,10 +1,10 @@
 +++
-date = 2020-04-22T00:00:00.000Z
+date = 2020-04-22T10:48:37.000Z
 title = "Satsuki Yukimi"
 slug = "2020-04-22-satsuki-yukimi"
 
 [extra]
-accepted_date = 2020-01-31T00:00:00.000Z
+accepted_date = 2020-01-31T15:47:35.000Z
 twitter_handle = "satsuki_yukimi"
 skeb_handle = "satsuki_yukimi"
 pixiv_id = "7550113"

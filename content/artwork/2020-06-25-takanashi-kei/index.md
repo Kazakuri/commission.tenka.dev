@@ -1,10 +1,10 @@
 +++
-date = 2020-06-25T00:00:00.000Z
+date = 2020-06-25T14:48:44.000Z
 title = "Takanashi Kei"
 slug = "2020-06-25-takanashi-kei"
 
 [extra]
-accepted_date = 2020-05-19T00:00:00.000Z
+accepted_date = 2020-05-19T06:32:12.000Z
 twitter_handle = "KEI_takanashi"
 skeb_handle = "KEI_takanashi"
 pixiv_id = "52852"

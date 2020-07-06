@@ -1,10 +1,10 @@
 +++
-date = 2020-05-27T00:00:00.000Z
+date = 2020-05-27T08:14:40.000Z
 title = "Tsuchimiya"
 slug = "2020-05-27-tsuchimiya"
 
 [extra]
-accepted_date = 2020-05-06T00:00:00.000Z
+accepted_date = 2020-05-06T19:30:43.000Z
 twitter_handle = "A_Tsuchimiya"
 skeb_handle = "A_Tsuchimiya"
 images = [

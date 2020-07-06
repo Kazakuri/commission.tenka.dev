@@ -1,10 +1,10 @@
 +++
-date = 2020-03-24T00:00:00.000Z
+date = 2020-03-24T16:35:54.000Z
 title = "檸檬乃れもね"
 slug = "2020-03-24-lemono-lemone"
 
 [extra]
-accepted_date = 2020-02-10T00:00:00.000Z
+accepted_date = 2020-02-10T09:15:01.000Z
 twitter_handle = "LemonoLemone"
 skeb_handle = "Lemone"
 pixiv_id = "34582180"

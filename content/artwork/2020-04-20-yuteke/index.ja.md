@@ -1,10 +1,10 @@
 +++
-date = 2020-04-20T00:00:00.000Z
+date = 2020-04-20T11:14:26.000Z
 title = "ゆうてけ"
 slug = "2020-04-20-yuteke"
 
 [extra]
-accepted_date = 2020-03-08T00:00:00.000Z
+accepted_date = 2020-03-08T09:34:49.000Z
 twitter_handle = "yuteke_key"
 skeb_handle = "yuteke_key"
 pixiv_id = "13039894"

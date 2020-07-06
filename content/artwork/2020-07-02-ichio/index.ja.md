@@ -1,11 +1,11 @@
 +++
-date = 2020-07-02T00:00:00.000Z
+date = 2020-07-02T02:40:44.000Z
 title = "イチオ"
 slug = "2020-07-02-ichio"
 
 [extra]
 nsfw = true
-accepted_date = 2020-06-07T00:00:00.000Z
+accepted_date = 2020-06-07T10:07:02.000Z
 twitter_handle = "ichio_x"
 skeb_handle = "ichio_x"
 pixiv_id = "18121"
