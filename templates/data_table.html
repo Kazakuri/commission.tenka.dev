@@ -17,7 +17,7 @@
     <tr>
       <th> {{ trans(key="duration", lang=lang) }} </th>
       <td> 
-        {{ (end - start) / 86400 | float }}{{ trans(key="days", lang=lang) }}
+        {{ (end - start) / 86400 | float | round }}{{ trans(key="days", lang=lang) }}
       </td>
     </tr>
     {% endif %}
