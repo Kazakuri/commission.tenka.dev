@@ -9,7 +9,7 @@ accepted_date = 2020-06-07T17:10:05.000Z
 twitter_handle = "natsu_koucha"
 skeb_handle = "natsu_koucha"
 pixiv_id = "118535"
-images = [
+variations = [
   "image.png",
   "image2.png"
 ]

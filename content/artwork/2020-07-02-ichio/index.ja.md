@@ -9,7 +9,7 @@ accepted_date = 2020-06-07T10:07:02.000Z
 twitter_handle = "ichio_x"
 skeb_handle = "ichio_x"
 pixiv_id = "18121"
-images = [
+variations = [
   "image.png",
   "image2.png"
 ]

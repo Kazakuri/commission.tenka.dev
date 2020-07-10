@@ -9,7 +9,7 @@ accepted_date = 2020-06-08T11:03:53.000Z
 twitter_handle = "akizuki71"
 skeb_handle = "akizuki71"
 pixiv_id = "11722207"
-images = [
+variations = [
   "image.png",
   "image2.png",
 ]

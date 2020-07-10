@@ -372,8 +372,23 @@ h6 {
   .images {
     flex: 1;
   }
+
+  .variations {
+    width: 100px;
+    padding-left: 0.75rem;
+    border-left: 1px solid $accent;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    img {
+      margin-bottom: 0.75rem;
+      cursor: pointer;
+    }
+  }
 }
 
+
+.variations,
 .images {
   display: flex;
   justify-content: center;
