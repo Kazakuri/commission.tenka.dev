@@ -24,6 +24,7 @@ html {
   font-size: 16px;
   line-height: 1.5;
 }
+
 @media (min-width: 38em) {
   html {
     font-size: 20px;
@@ -35,6 +36,25 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: $accent $navbar-foreground;
+}
+
+body::-webkit-scrollbar-track {
+  background: $navbar-foreground;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $accent;
+  border-radius: 6px;
+  border: 3px solid $navbar-foreground;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
@@ -374,11 +394,18 @@ h6 {
   }
 
   .variations {
-    width: 100px;
+    width: 117px;
+    padding-right: 17px;
+    height: 700px;
     padding-left: 0.75rem;
     border-left: 1px solid $accent;
     flex-direction: column;
     justify-content: flex-start;
+    overflow-y: auto;
+
+    a {
+      margin: 0;
+    }
 
     img {
       margin-bottom: 0.75rem;

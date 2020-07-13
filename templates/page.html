@@ -66,18 +66,20 @@
 
       {% if page.extra.variations %}
         <div class="variations">
-          {% for image in page.extra.variations %}
+          <div>
+            {% for image in page.extra.variations %}
 
-            {% if page.lang == config.default_language %}
-              {% set i = page.components[0] ~ "/" ~ page.components[1] ~ "/" ~ image %}
-            {% else %}
-              {% set i = page.components[1] ~ "/" ~ page.components[2] ~ "/" ~ image %}
-            {% endif %}
+              {% if page.lang == config.default_language %}
+                {% set i = page.components[0] ~ "/" ~ page.components[1] ~ "/" ~ image %}
+              {% else %}
+                {% set i = page.components[1] ~ "/" ~ page.components[2] ~ "/" ~ image %}
+              {% endif %}
 
-            <a onclick="setImage('{{ image }}', '{{ resize_image(path=i, height=700, op="fit_height") }}')">
-              <img src="{{ resize_image(path=i, height=700, op="fit_height") }}" />
-            </a>
-          {% endfor %}
+              <a onclick="setImage('{{ image }}', '{{ resize_image(path=i, height=700, op="fit_height") }}')">
+                <img src="{{ resize_image(path=i, height=700, op="fit_height") }}" />
+              </a>
+            {% endfor %}
+          </div>
         </div>
       {% endif %}
 
