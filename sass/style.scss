@@ -455,15 +455,25 @@ h6 {
     
     .variations {
       width: 100%;
-      height: 100px;
+      height: calc(130px + 0.75rem);
       padding-top: 0.75rem;
       border-top: 1px solid $accent;
       border-left: 0px solid $accent;
-      flex-direction: row;
-      justify-content: space-evenly;
+      overflow-x: auto;
+      white-space: nowrap;
+
+      div {
+        min-width: 100%;
+        height: 100%;
+      }
+
+      a {
+        display: inline-block;
+      }
 
       img {
         margin-bottom: 0;
+        margin-right: 0.75rem;
         height: 100px;
       }
     }
