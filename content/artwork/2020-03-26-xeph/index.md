@@ -10,9 +10,9 @@ twitch_url = "https://www.twitch.tv/xephart"
 pixiv_id = "110174"
 +++
 
-Since most conventions have been cancelled thoughout the next few months, Xeph has decided to open up his commissions. I immediately had to jump on the chance since Xeph has been one of my favourite artists since I visited his artist's alley booth at AX in 2018.
+Since most conventions have announced their cancellations throughout the next few months, Xeph has opened up his commissions. I immediately had to jump on the chance since Xeph has been one of my favourite artists since I visited his artist's alley booth at AX in 2018.
 
-I honestly don't even know where to begin when talking about the final image. It's perfect in every way. I love the expression she's making, I love her adorable little tummy, I love how her leg is tactfully blocking the view of her privates.
+I honestly don't even know where to begin when talking about the result of the commission. It's perfect in every way. I love the expression she's making; I love her adorable little tummy; I love how her leg is tactfully blocking the view of her privates.
 
 {% request() %}
 Tenka has been my waifu ever since the Shoujo Ramune VN came out in 2015 and I’ve commissioned a ton of art of her so there’s no way I could pass up the opportunity to have one of my favourite artists draw my favourite character.

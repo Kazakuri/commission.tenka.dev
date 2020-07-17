@@ -12,7 +12,7 @@ pixiv_id = "61788"
 
 This commission from Coyomin was a very spur-of-the-moment request, another artist I follow on Twitter retweeted their Tweet about looking for Skeb requests and I discovered them and immediately requested something.
 
-By this point I've been able to experience Tenka being drawn in so many different styles but getting to see a new one still is an incredible experience for me. Despite being in such a suggestive outfit in such a suggestive pose, Tenka still manages to look absolutely adorable and I keep going back to look at that smile again and again.
+By this point I've been able to experience Tenka being drawn in so many styles, but getting to see another new style of Tenka is still an incredible experience for me. Despite being in such a suggestive outfit in such a suggestive pose, Tenka still looks adorable and I keep going back to look at that smile again and again.
 
 {% request() %}
 Coyomin-san, hello!

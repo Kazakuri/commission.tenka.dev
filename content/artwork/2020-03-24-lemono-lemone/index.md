@@ -10,9 +10,9 @@ skeb_handle = "Lemone"
 pixiv_id = "34582180"
 +++
 
-When I initially made the request I saw that their Twitter bio said they were dreaming of the day that someone would call them sensei so I figured I'd be a little bit cheeky and address them as sensei in my request. I hope they enjoyed it!
+At the time I initially made the request, I saw that their Twitter bio said they were dreaming of the day that someone would call them "sensei", so I figured I'd be a bit cheeky and address them as sensei in my request. I hope they enjoyed it!The finished commission is super adorable, I love the artist’s style and there are a bunch of minor things to appreciate in the illustration. The slight swing in her hips with the lifted skirt creates the perfect tease to just barely keep her covered, and I particularly enjoy the way her hands turned out.
 
-The finished commission is super adorable, I really like the artist's style and there are a bunch of small things to appreciate in the illustration. The slight swing in her hips with the lifted skirt creates the perfect tease to just barely keep her covered, and I particularly enjoy the way her hands turned out.
+The finished commission is super adorable, I love the artist's style and there are a bunch of minor things to appreciate in the illustration. The slight swing in her hips with the lifted skirt creates the perfect tease to just barely keep her covered, and I particularly enjoy the way her hands turned out.
 
 {% request() %}
 Lemono Lemone-sensei, hello.
