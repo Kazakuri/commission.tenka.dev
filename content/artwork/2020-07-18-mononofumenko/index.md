@@ -18,6 +18,8 @@ Please check back later.
 {% request() %}
 Nice to meet you, Mononofumenko!
 
+Thank you for the appeal!
+
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
 In a black and white image, Tenka-chan is outside using a vibrator!
