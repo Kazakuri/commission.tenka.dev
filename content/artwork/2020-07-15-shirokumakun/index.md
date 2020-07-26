@@ -8,6 +8,10 @@ nsfw = true
 accepted_date = 2020-07-10T02:19:32.000Z
 twitter_handle = "shirokumakun_n"
 skeb_handle = "shirokumakun_n"
+variations=[
+  "image.png",
+  "image2.png"
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.

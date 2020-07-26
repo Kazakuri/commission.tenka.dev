@@ -8,6 +8,10 @@ nsfw = true
 accepted_date = 2020-07-10T02:19:32.000Z
 twitter_handle = "shirokumakun_n"
 skeb_handle = "shirokumakun_n"
+variations=[
+  "image.png",
+  "image2.png"
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
