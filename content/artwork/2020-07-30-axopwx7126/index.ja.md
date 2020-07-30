@@ -8,6 +8,7 @@ nsfw = false
 accepted_date = 2020-07-23T02:03:54.075Z
 twitter_handle = "axopwx7126"
 skeb_handle = "axopwx7126"
+pixiv_id = "28988148"
 +++
 
 すみません、まだ日本語を説明文を書いていません！
