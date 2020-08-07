@@ -9,6 +9,10 @@ accepted_date = 2020-08-06T02:51:54.958Z
 twitter_handle = "shiohachi"
 skeb_handle = "shiohachi"
 pixiv_id = "15556886"
+variations = [
+  "image.png",
+  "image2.png"
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
