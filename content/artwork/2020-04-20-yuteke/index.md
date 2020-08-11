@@ -17,7 +17,7 @@ I wasn't quite sure if I did a good job explaining what I wanted in my request, 
 {% request() %}
 Hello Yuteke-san!
 
-Congratulations of gradulating!
+Congratulations of graduating!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune!
 

@@ -1,7 +1,7 @@
 +++
 date = 2020-08-07T06:15:50.972Z
 title = "Nikku"
-slug = "2020-08-07-yO7VdaqenSz5Txy"
+slug = "2020-08-07-yo7vdaqensz5txy"
 
 [extra]
 nsfw = true
@@ -20,15 +20,17 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-ニックさん、こんにちは！
-またお世話になります！
+Hello Nikku!
 
-今回も「小女ラムネ」の「足立甜花」を描いてお願いしたいんです。
+I'll be in your care again!
 
-テーマはラブラブ中出しセックスです！
-衣装は甜花の抱き枕から特別衣装です。下のURLで写真を取りました。
+I'd like to ask you to draw Tenka Adachi from Shoujo Ramune again.
 
-ありがとうございます！
+The theme is lovey-dovey creampie sex!
+
+The outfit is the special outfit she wore in her special dakimakura release. I've taken a picture to the URL below.
+
+Thank you very much!
 
 https://i.imgur.com/tVsbiPG.jpg
 {% end %}
