@@ -9,6 +9,11 @@ accepted_date = 2020-07-25T18:22:33.063Z
 twitter_handle = "GOD_JULAS"
 skeb_handle = "GOD_JULAS"
 pixiv_id = "34648"
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png"
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
