@@ -1,6 +1,6 @@
 +++
 date = 2020-09-13T21:57:07.403Z
-title = "なゆり＠skeb"
+title = "なゆり"
 slug = "2020-09-13-nyayuri22"
 
 [extra]

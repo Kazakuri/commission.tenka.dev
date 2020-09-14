@@ -1,6 +1,6 @@
 +++
 date = 2020-09-13T21:57:07.403Z
-title = "なゆり＠skeb"
+title = "Nayuri"
 slug = "2020-09-13-nyayuri22"
 
 [extra]
@@ -15,7 +15,7 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-なゆりNice to meet you, <TODO>!
+Nice to meet you, Nayuri!
 
 Thank you for the appeal!
 
