@@ -1,6 +1,6 @@
 +++
 date = 2020-09-18T21:57:04.373Z
-title = "あまね"
+title = "Amane"
 slug = "2020-09-18-amane0sleep"
 
 [extra]
@@ -8,9 +8,13 @@ nsfw = true
 accepted_date = 2020-09-07T00:43:53.915Z
 twitter_handle = "amane0sleep"
 skeb_handle = "amane0sleep"
-
 pixiv_id = "230075"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -18,17 +22,17 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-あまねHello, <TODO>!
+Hello, Amane!
 
-またお世話になります！
+I'll be in your care again!
 
-今回も「小女ラムネ」の「足立甜花」を描いてお願いしたいんです！
+This time I'd also like to ask you to draw Tenka Adachi from Shoujo Ramune!
 
-イラストで甜花ちゃんが性的にからかわれています！
+In the image Tenka-chan is being teased sexually!
 
-からかうことのせいで甜花ちゃんが今にもいっちゃいそうです！
+Because of the teasing, Tenka-chan is about to cum!
 
-詳細はお任せします。
+I'll leave the details up to you.
 
 Thank you very much!
 {% end %}

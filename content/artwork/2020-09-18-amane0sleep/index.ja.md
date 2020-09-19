@@ -8,9 +8,13 @@ nsfw = true
 accepted_date = 2020-09-07T00:43:53.915Z
 twitter_handle = "amane0sleep"
 skeb_handle = "amane0sleep"
-
 pixiv_id = "230075"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
