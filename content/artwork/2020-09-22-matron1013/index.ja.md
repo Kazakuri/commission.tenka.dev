@@ -1,6 +1,6 @@
 +++
 date = 2020-09-22T13:12:36.499Z
-title = "マトロン@Skeb受付中"
+title = "マトロン"
 slug = "2020-09-22-matron1013"
 
 [extra]
@@ -8,9 +8,7 @@ nsfw = false
 accepted_date = 2020-09-02T12:30:46.935Z
 twitter_handle = "matron1013"
 skeb_handle = "matron1013"
-
 pixiv_id = "57313863"
-
 +++
 
 すみません、まだ日本語を説明文を書いていません！
