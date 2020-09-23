@@ -8,9 +8,13 @@ nsfw = true
 accepted_date = 2020-09-07T12:52:27.957Z
 twitter_handle = "gochishiko"
 skeb_handle = "gochishiko"
-
 pixiv_id = "781964"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
