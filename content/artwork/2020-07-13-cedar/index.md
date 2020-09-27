@@ -23,9 +23,9 @@ variations = [
 ]
 +++
 
-Sorry, I haven't written anything about this commission yet.
+I’ve followed Cedar for a long time on Pixiv. They post a ton of fantastic illustrations that cover a bunch of fetishes that I really enjoy, along with several versions of each image. I asked for the themes of Tenka being tied up and wetting herself, but as a bonus Cedar added in differentials using a vibrator!
 
-Please check back later.
+I really love how this request turned out. The situation with her being tied up in the back of a van is perfect, and the focus on her feet is a pleasant surprise. I always look forward to seeing what kind of wonderful illustrations Cedar will draw next!
 
 {% request() %}
 Hello cedar!

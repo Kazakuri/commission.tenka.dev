@@ -10,7 +10,8 @@ skeb_handle = "kanekan15"
 pixiv_id = "27224233"
 +++
 
-Kanekan has always drawn some of my favourite 「おしっこ我慢」 (holding in the urge to pee) artwork, so getting to see his take on Tenka has been a treat to me. I think the slight flustered and nervous expression does a perfect job of capturing the situation with the little bead of sweat running down her cheek. When I explained what I wanted in the request, I wasn't sure if I explained everything correctly since the details of the pose aren't common phrases that you'd be using a lot in Japanese, but Kanekan figured out what I was asking and made fantastic looking result!
+Kanekan’s illustrations are all very cute, but his “pee-holding” illustrations are some of my favourite. Tenka-chan is a character that I think fits his style well, so I was excited to see what he would draw! The slightly flustered and nervous expression does a perfect job of capturing the situation, especially with the little bead of sweat running down her cheek. The pose isn’t something that you’d often explain in Japanese so I didn’t know if I explained it right, but Kanekan figured out what I was asking and made fantastic looking result!
+
 
 {% request() %}
 Nice to meet you, Kanekan!

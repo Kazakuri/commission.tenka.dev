@@ -10,9 +10,9 @@ skeb_handle = "10ofton10"
 pixiv_id = "28532404"
 +++
 
-Sorry, I haven't written anything about this commission yet.
+I’ve mentioned it a few times recently, but I’ve been defaulting to leaving the theme of my requests up to the artist a lot more. I’m always interested to see how the artist researches Shoujo Ramune, more so when the artist sends me an appeal. I have requested Tenka in her summer yukata before, but it surprised me that Futon drew her wearing it.
 
-Please check back later.
+Futon’s art-style isn’t the style of art that I usually look for, but I can appreciate its beauty either way. I love the way this commission turned out. The fireworks in the background plus the wonderful expression on her face create the wonderful atmosphere of a summer festival date.
 
 {% request() %}
 Nice to meet you, Futon!

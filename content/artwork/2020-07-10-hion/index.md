@@ -17,9 +17,9 @@ variations = [
 ]
 +++
 
-Sorry, I haven't written anything about this commission yet.
+There are still quite a few different scenarios I want to see Tenka in, but I just want more artists drawing her. Hion pretty much only draws NSFW images, but their art-style is fantastic, so I knew I wanted them to draw Tenka-chan.
 
-Please check back later.
+The background of this image reminds me of Tenka’s first lewd scene in the anime, but the position and outfit are entirely different. Tenka’s facial expression is way too cute, and I particularly love how she’s being held up by her legs. The bonus differences without the shadow and with her being creampied are amazing.
 
 {% request() %}
 Nice to meet you, Hion!

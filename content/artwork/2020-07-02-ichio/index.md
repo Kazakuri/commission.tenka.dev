@@ -15,9 +15,9 @@ variations = [
 ]
 +++
 
-Sorry, I haven't written anything about this commission yet.
+Ichio is another artist who draws a ton of incredible Prisma Illya images and doujinshi. For this request, I went with Chloe’s beast outfit since he has drawn that outfit plenty of times before. Originally I had requested another artist to draw Tenka-chan in Illya’s beast outfit too, but that didn’t end up working out.
 
-Please check back later.
+Going back to this illustration, I really love how it turned out. The pose puts a nice focus on her ass, and it was a pleasant surprise to find a difference with the bottom of the outfit taken off. I’m not sure if character cosplaying in other character’s outfits is something that artists like to draw, but I really enjoy Tenka-chan getting to cosplay like this.
 
 {% request() %}
 Nice to meet you, Ichio!

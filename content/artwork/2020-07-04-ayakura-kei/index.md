@@ -5,8 +5,8 @@ slug = "2020-07-04-ayakura-kei"
 
 [extra]
 accepted_date = 2020-05-24T13:46:11.000Z
-twitter_handle = "Ayakura_1907"
-skeb_handle = "Ayakura_maki"
+twitter_handle = "Nagiao_1907"
+skeb_handle = "Nagi_1907"
 pixiv_id = "31949962"
 +++
 
