@@ -265,6 +265,10 @@ nav {
     padding-left: 2rem; 
     display: flex;
     align-items: center;
+
+    a {
+      margin: 0 0.5rem;
+    }
   }
 }
 
@@ -300,6 +304,13 @@ nav {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  nav > a {
+    display: none;
+  }
+
+  .links {
+    padding-left: 0; 
+  }
 }
 
 .page,

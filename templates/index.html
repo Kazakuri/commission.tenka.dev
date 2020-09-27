@@ -54,16 +54,22 @@
       </a>
       <div class="links">
         {% if lang == config.default_language %}
+          <a href="{{ config.base_url }}/">
+            {{ trans(key="home", lang=lang) }}
+          </a>
           <a href="{{ config.base_url }}/about">
             {{ trans(key="about", lang=lang) }}
-          </a> ／
+          </a>
           <a href="{{ config.base_url }}/stats">
             {{ trans(key="stats", lang=lang) }}
           </a>
         {% else %}
+          <a href="{{ config.base_url }}/{{ lang }}/">
+            {{ trans(key="home", lang=lang) }}
+          </a>
           <a href="{{ config.base_url }}/{{ lang }}/about">
             {{ trans(key="about", lang=lang) }}
-          </a> ／
+          </a>
           <a href="{{ config.base_url }}/{{ lang }}/stats">
             {{ trans(key="stats", lang=lang) }}
           </a>
