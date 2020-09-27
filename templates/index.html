@@ -52,8 +52,28 @@
           {{ trans(key="title", lang=lang) }}
         </span>
       </a>
+      <div class="links">
+        {% if lang == config.default_language %}
+          <a href="{{ config.base_url }}/about">
+            {{ trans(key="about", lang=lang) }}
+          </a> ／
+          <a href="{{ config.base_url }}/stats">
+            {{ trans(key="stats", lang=lang) }}
+          </a>
+        {% else %}
+          <a href="{{ config.base_url }}/{{ lang }}/about">
+            {{ trans(key="about", lang=lang) }}
+          </a> ／
+          <a href="{{ config.base_url }}/{{ lang }}/stats">
+            {{ trans(key="stats", lang=lang) }}
+          </a>
+        {% endif %}
+      </div>
       <div class="lang">
-        {% if page %}
+        {% if page or section %}
+          {% if section %}
+            {% set page = section %}
+          {% endif %}
           {% if page.lang == "en" %}
             <a href="">English</a> ／
           {% else %}
@@ -88,35 +108,40 @@
     {% block content %}
       {% for path in section.subsections %}
         {% set section = get_section(path=path) %}
-        <h2> {{ section.title }} </h2>
-        <div class="posts">
-          {% for page in section.pages %}
-            {% if page.lang == config.default_language %}
-              {% set cover = page.components[0] ~ "/" ~ page.components[1] ~ "/image.png" %}
-            {% else %}
-              {% set cover = page.components[1] ~ "/" ~ page.components[2] ~ "/image.png" %}
-            {% endif %}
-            
-            {% if page.extra["nsfw"] and page.extra["nsfw"] == true %}
-              {% set nsfw = "nsfw" %}
-            {% else %}
-              {% set nsfw = "" %}
-            {% endif %}
+        {% set num_components = section.components | length %}
 
-            {% set date = page.date | date(format=date_format) %}
-            <div class="post">
-              <a href="{{ page.permalink }}" title="{{ page.title ~ " - " ~ date }}">
-                <span class="heading title"> {{ page.title }} </span>
-                <div>
-                  <div class="{{ nsfw }}">
-                    <img src="{{ resize_image(path=cover, width=500, height=500, format="jpg") }}" />
+        {% if section.components[0] == "artwork" or num_components > 1 and section.components[1] == "artwork" %}
+          
+          <h2> {{ section.title }} </h2>
+          <div class="posts">
+            {% for page in section.pages %}
+              {% if page.lang == config.default_language %}
+                {% set cover = page.components[0] ~ "/" ~ page.components[1] ~ "/image.png" %}
+              {% else %}
+                {% set cover = page.components[1] ~ "/" ~ page.components[2] ~ "/image.png" %}
+              {% endif %}
+              
+              {% if page.extra["nsfw"] and page.extra["nsfw"] == true %}
+                {% set nsfw = "nsfw" %}
+              {% else %}
+                {% set nsfw = "" %}
+              {% endif %}
+
+              {% set date = page.date | date(format=date_format) %}
+              <div class="post">
+                <a href="{{ page.permalink }}" title="{{ page.title ~ " - " ~ date }}">
+                  <span class="heading title"> {{ page.title }} </span>
+                  <div>
+                    <div class="{{ nsfw }}">
+                      <img src="{{ resize_image(path=cover, width=500, height=500, format="jpg") }}" />
+                    </div>
                   </div>
-                </div>
-                <span class="heading"> {{ date }} </span>
-              </a>
-            </div>
-          {% endfor %}
-        </div>
+                  <span class="heading"> {{ date }} </span>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
       {% endfor %}
     {% endblock content %}
   </div>

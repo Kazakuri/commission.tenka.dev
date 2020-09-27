@@ -253,9 +253,18 @@ nav {
     height: 0.75rem;
   }
 
+  .links a,
   .lang a {
     color: $navbar-foreground;
     font-size: 0.75rem;
+    margin: 0 0.35rem;
+  }
+
+  .links {
+    flex-grow: 1;
+    padding-left: 2rem; 
+    display: flex;
+    align-items: center;
   }
 }
 

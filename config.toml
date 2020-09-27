@@ -19,6 +19,9 @@ languages = [
 
 [translations.en]
 title = "Tenka Commissions"
+about = "About"
+stats = "Stats"
+appeals = "Appeals"
 description = "A showcase of all the illustrations of Shoujo Ramune's Tenka Adachi that I've commissioned."
 date_format = "%Y-%m-%d"
 days = " days"
@@ -36,6 +39,8 @@ request = "Request"
 
 [translations.ja]
 title = "甜花ちゃんのコミッション"
+about = "サイトについて知る"
+stats = " スタッツ"
 description = "俺のリクエストした「小女ラムネ」の「足立甜花」のイラスト。"
 date_format = "%Y年%m月%d日"
 days = "日間"
