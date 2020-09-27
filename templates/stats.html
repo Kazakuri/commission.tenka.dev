@@ -10,11 +10,48 @@
 
 {% set artwork = get_section(path="artwork/_index.md") %}
 
+{% set lowest = 999999 %}
+{% set highest = 0 %}
+{% set total = 0 %}
+{% set count = artwork.pages | length %}
+
+{% for p in artwork.pages %}
+  {% set end = p.date | date(format="%s") | int %}
+  {% set start = p.extra.accepted_date | date(format="%s") | int %}
+  {% set duration = (end - start) / 3600 | float | round %}
+
+  {% if duration < lowest %}
+    {% set_global lowest = duration %}
+  {% endif %}
+
+  {% if duration > highest %}
+    {% set_global highest = duration %}
+  {% endif %}
+
+  {% set_global total = total + duration %}
+{% endfor %}
+
 <div class="post-item">
   <h1 class="post-title">{{ section.title }}</h1>
 
   <div class="post-body">
     <div class="post-content">
+      <h2> Delivery </h2>
+      <div class="stat_line">
+        <div style="flex-basis: 33%">
+          <h3> Fastest </h3>
+          <span> {{ lowest }} hours </span>
+        </div>
+        <div style="flex-basis: 33%">
+          <h3> Average </h3>
+          <span> {{ (total / count) / 24 | float | round }} days </span>
+        </div>
+        <div style="flex-basis: 33%">
+          <h3> Slowest </h3>
+          <span> {{ highest / 24 | float | round }} days </span>
+        </div>
+      </div>
+      <h2> Totals </h2>
       <div class="chart" id="countContainer"></div>
     </div>
   </div>

@@ -289,6 +289,28 @@ nav {
   width: 50vw;
   height: 25vw;
   margin: 1rem auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.stat_line {
+  display: flex;
+  justify-content: space-around;
+
+  > div {
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 1rem;
+    margin: 1rem 2rem;
+    text-align: center;
+  }
+
+  h3 {
+    margin-top: 0;
+
+    &::after {
+      display: none;
+    }
+  }
 }
 
 @media screen and (max-width: 1112px) {
