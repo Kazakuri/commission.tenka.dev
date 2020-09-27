@@ -1,5 +1,4 @@
 +++
 title = "Stats"
+template = "stats.html"
 +++
-
-Please check back later.

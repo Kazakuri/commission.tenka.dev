@@ -1,0 +1,75 @@
+{% extends "index.html" %}
+
+{% block extra_head %}
+
+<script src="/highcharts.js"></script>
+
+{% endblock extra_head %}
+
+{% block content %}
+
+{% set artwork = get_section(path="artwork/_index.md") %}
+
+<div class="post-item">
+  <h1 class="post-title">{{ section.title }}</h1>
+
+  <div class="post-body">
+    <div class="post-content">
+      <div class="chart" id="countContainer"></div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  const data = [
+    {% for p in artwork.pages | reverse %}
+      "{{ p.date }}",
+    {% endfor %}
+  ];
+
+  const countOptions = {
+    chart: {
+      renderTo: 'countContainer',
+      zoomType: 'x',
+      spacingRight: 20,
+      type: 'area'
+    },
+    colors: [ "#ee8694", "#da6783" ],
+    title: {
+      text: 'Requests'
+    },
+    xAxis: {
+      title: {
+        text: 'Date'
+      },
+      type: 'datetime'
+    },
+    yAxis: {
+      title: {
+        text: 'Count'
+      }
+    },
+    credits: {
+      enabled: false
+    },
+    plotOptions: {
+      series: {
+        stacking: 'normal',
+        pointWidth: 10,
+      }
+    },
+    legend: {
+      enabled: false,
+    },
+    series: [
+      {
+        name: 'Count',
+        data: data.map((r, i) => [new Date(r).getTime(), i + 1])
+      }
+    ]
+  }
+
+  const countChart = new Highcharts.Chart(countOptions);
+</script>
+
+{% endblock content %}

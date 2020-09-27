@@ -285,6 +285,12 @@ nav {
   grid-template-columns: repeat(6, 1fr);
 }
 
+.chart {
+  width: 50vw;
+  height: 25vw;
+  margin: 1rem auto;
+}
+
 @media screen and (max-width: 1112px) {
   .posts {
     grid-template-columns: repeat(2, 1fr);
@@ -310,6 +316,11 @@ nav {
 
   .links {
     padding-left: 0; 
+  }
+
+  .chart {
+    width: 100%;
+    height: 50vw;
   }
 }
 

@@ -1,5 +1,4 @@
 +++
 title = "スタッツ"
+template = "stats.html"
 +++
-
-後ほどチェックしてみてください。
