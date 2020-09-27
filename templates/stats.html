@@ -38,15 +38,15 @@
     <div class="post-content">
       <h2> Delivery </h2>
       <div class="stat_line">
-        <div style="flex-basis: 33%">
+        <div>
           <h3> Fastest </h3>
           <span> {{ lowest }} hours </span>
         </div>
-        <div style="flex-basis: 33%">
+        <div>
           <h3> Average </h3>
           <span> {{ (total / count) / 24 | float | round }} days </span>
         </div>
-        <div style="flex-basis: 33%">
+        <div>
           <h3> Slowest </h3>
           <span> {{ highest / 24 | float | round }} days </span>
         </div>
