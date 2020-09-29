@@ -36,22 +36,22 @@
 
   <div class="post-body">
     <div class="post-content">
-      <h2> Delivery </h2>
+      <h2> {{ trans(key="delivery", lang=lang) }} </h2>
       <div class="stat_line">
         <div>
-          <h3> Fastest </h3>
-          <span> {{ lowest }} hours </span>
+          <h3> {{ trans(key="fastest", lang=lang) }} </h3>
+          <span> {{ lowest }} {{ trans(key="hours", lang=lang) }} </span>
         </div>
         <div>
-          <h3> Average </h3>
-          <span> {{ (total / count) / 24 | float | round }} days </span>
+          <h3> {{ trans(key="average", lang=lang) }} </h3>
+          <span> {{ (total / count) / 24 | float | round }} {{ trans(key="days", lang=lang) }} </span>
         </div>
         <div>
-          <h3> Slowest </h3>
-          <span> {{ highest / 24 | float | round }} days </span>
+          <h3> {{ trans(key="slowest", lang=lang) }} </h3>
+          <span> {{ highest / 24 | float | round }} {{ trans(key="days", lang=lang) }} </span>
         </div>
       </div>
-      <h2> Totals </h2>
+      <h2> {{ trans(key="totals", lang=lang) }} </h2>
       <div class="chart" id="countContainer"></div>
     </div>
   </div>
@@ -73,17 +73,17 @@
     },
     colors: [ "#ee8694", "#da6783" ],
     title: {
-      text: 'Requests'
+      text: '{{ trans(key="requests", lang=lang) }}'
     },
     xAxis: {
       title: {
-        text: 'Date'
+        text: '{{ trans(key="date", lang=lang) }}'
       },
       type: 'datetime'
     },
     yAxis: {
       title: {
-        text: 'Count'
+        text: '{{ trans(key="count", lang=lang) }}'
       }
     },
     credits: {
@@ -100,7 +100,7 @@
     },
     series: [
       {
-        name: 'Count',
+        name: '{{ trans(key="count", lang=lang) }}',
         data: data.map((r, i) => [new Date(r).getTime(), i + 1])
       }
     ]
