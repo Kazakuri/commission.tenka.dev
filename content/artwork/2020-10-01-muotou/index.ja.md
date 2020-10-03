@@ -8,7 +8,11 @@ nsfw = true
 accepted_date = 2020-08-04T21:12:43.790Z
 twitter_handle = "muotou"
 skeb_handle = "muotou"
-
+pixiv_id = 3532395
+variations = [
+  "image.png",
+  "image2.png",
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
