@@ -8,7 +8,14 @@ nsfw = true
 accepted_date = 2020-08-22T23:45:19.685Z
 twitter_handle = "oris_at"
 skeb_handle = "oris_at"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+  "image5.png",
+  "image6.png",
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
