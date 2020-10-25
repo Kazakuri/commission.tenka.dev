@@ -1,6 +1,6 @@
 +++
 date = 2020-10-24T15:21:35.591Z
-title = "ゑぬ-秋葉原同人祭【ア9】"
+title = "ゑぬ"
 slug = "2020-10-24-enu-erororo"
 
 [extra]
@@ -9,6 +9,10 @@ accepted_date = 2020-09-06T05:45:23.529Z
 twitter_handle = "enu_erororo"
 skeb_handle = "enu_erororo"
 pixiv_id = "5756451"
+variations = [
+  "image.png",
+  "image2.png"
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
