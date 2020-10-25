@@ -22,7 +22,7 @@ Please check back later.
 {% request() %}
 Nice to meet you, KumaQM!
 
-If you'd like, 'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
+If you'd like, I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
 Tenka-chan has become a pet!
 
