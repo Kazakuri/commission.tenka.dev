@@ -1,6 +1,6 @@
 +++
 date = 2020-10-07T11:27:38.407Z
-title = "くまQM"
+title = "KumaQM"
 slug = "2020-10-07-kumaqmdayo"
 
 [extra]
@@ -9,6 +9,10 @@ accepted_date = 2020-10-03T02:03:30.430Z
 twitter_handle = "kumaqmdayo"
 skeb_handle = "kumaqmdayo"
 pixiv_id = "5481606"
+variations = [
+  "image.png",
+  "image2.png",
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,15 +20,15 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-くまQMNice to meet you, <TODO>!
+Nice to meet you, KumaQM!
 
-もしよければ、I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
+If you'd like, 'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-甜花ちゃんがペットになりました！
+Tenka-chan has become a pet!
 
-陵辱して首輪を付けてチンコで調教しています！
+She has a collar on while being humiliated and teased by a cock!
 
-他の詳細はお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}

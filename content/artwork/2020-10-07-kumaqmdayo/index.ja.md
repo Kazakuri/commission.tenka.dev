@@ -9,6 +9,10 @@ accepted_date = 2020-10-03T02:03:30.430Z
 twitter_handle = "kumaqmdayo"
 skeb_handle = "kumaqmdayo"
 pixiv_id = "5481606"
+variations = [
+  "image.png",
+  "image2.png",
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
