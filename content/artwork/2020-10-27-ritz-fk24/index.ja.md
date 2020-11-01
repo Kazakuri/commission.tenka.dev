@@ -4,7 +4,7 @@ title = "Ritz"
 slug = "2020-10-27-ritz-fk24"
 
 [extra]
-nsfw = true
+nsfw = false
 accepted_date = 2020-10-13T15:45:53.780Z
 twitter_handle = "Ritz_fk24"
 skeb_handle = "Ritz_fk24"
