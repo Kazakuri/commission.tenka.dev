@@ -1,4 +1,17 @@
-{% set cover = page.components[0] ~ "/" ~ page.components[1] ~ "/" ~ path %}
-<a href="{{path}}"">
-  <img src="{{ resize_image(path=cover, width=500, op="fit_width") }}" />
+{% set asset = "" %}
+
+{% if page %}
+  {% for p in page.components %}
+    {% set_global asset = asset ~ p ~ "/" %}
+  {% endfor %}
+{% else %}
+  {% for p in section.components %}
+    {% set_global asset = asset ~ p ~ "/" %}
+  {% endfor %}
+{% endif %}
+
+{% set asset = asset ~ path %}
+
+<a href="{{asset}}" class="image">
+  <img src="{{ resize_image(path=asset, width=700, op="fit_width") }}" />
 </a>
