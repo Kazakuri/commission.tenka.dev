@@ -1,6 +1,6 @@
 +++
 date = 2020-10-26T17:38:43.238Z
-title = "送り萬都🔞🏹✝🌿🦋 お仕事募集中"
+title = "送り萬都"
 slug = "2020-10-26-bantosuzune"
 
 [extra]
@@ -9,6 +9,10 @@ accepted_date = 2020-09-23T03:13:44.166Z
 twitter_handle = "bantosuzune"
 skeb_handle = "bantosuzune"
 pixiv_id = "639067"
+variations = [
+  "image.png",
+  "image2.png"
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
@@ -34,5 +38,5 @@ pixiv_id = "639067"
 
 ありがとうございます！
 
-https://i.imgur.com/tVsbiPG.jpg
+[https://i.imgur.com/tVsbiPG.jpg](https://i.imgur.com/tVsbiPG.jpg)
 {% end %}

@@ -1,6 +1,6 @@
 +++
 date = 2020-10-26T17:38:43.238Z
-title = "送り萬都🔞🏹✝🌿🦋 お仕事募集中"
+title = "Okuri Banto"
 slug = "2020-10-26-bantosuzune"
 
 [extra]
@@ -9,6 +9,10 @@ accepted_date = 2020-09-23T03:13:44.166Z
 twitter_handle = "bantosuzune"
 skeb_handle = "bantosuzune"
 pixiv_id = "639067"
+variations = [
+  "image.png",
+  "image2.png"
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,23 +20,22 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-送り萬都Nice to meet you, <TODO>!
+Nice to meet you, Okuri Banto!
 
-送り萬都さんのイラストと同人誌が大ファンです！
+I'm a huge fan of your illutrations and doujinshi!
 
-もしよければ、I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
+If you'd like, I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-甜花ちゃんが立ちバックでセックスしています！首を掴んで窒息させていますか髪（サイドテール）を引っ張っています。
+In the image, Tenka is getting fucked from behind! It'd be nice if she was being choked, or having her hair (sidetail) pulled.
 
-よければ、中出し差分も描いたら嬉しいです。
+I would be happy if you could also draw a creampie variation.
 
-セックスで気持ち良すぎて泣いています。
+Her eyes are full of tears because of how good it feels.
 
-衣装は甜花ちゃんの抱き枕から特別衣装です。下のURLで写真を取りました。
+For her outfit, please use the speicial dakimakura outfit. I've uploaded a picture below.
 
-他の詳細はお任せします。
-
+I'll leave the other details up to you.
 Thank you very much!
 
-https://i.imgur.com/tVsbiPG.jpg
+[https://i.imgur.com/tVsbiPG.jpg](https://i.imgur.com/tVsbiPG.jpg)
 {% end %}
