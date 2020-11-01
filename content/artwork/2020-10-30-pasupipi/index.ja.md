@@ -1,6 +1,6 @@
 +++
 date = 2020-10-30T08:28:52.205Z
-title = "ぱすぴ🔞"
+title = "ぱすぴ"
 slug = "2020-10-30-pasupipi"
 
 [extra]
@@ -9,6 +9,16 @@ accepted_date = 2020-10-28T13:37:18.353Z
 twitter_handle = "pasupipi"
 skeb_handle = "pasupipi"
 pixiv_id = "43493002"
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+  "image5.png",
+  "image6.png",
+  "image7.png",
+  "image8.png",
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
