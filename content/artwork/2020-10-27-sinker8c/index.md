@@ -1,6 +1,6 @@
 +++
 date = 2020-10-27T13:45:20.905Z
-title = "夏"
+title = "Natsu"
 slug = "2020-10-27-sinker8c"
 
 [extra]
@@ -16,13 +16,13 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-なつちゃん、こんにちは！
+Hello, Natsu-chan!
 
-今回はクロスオーバー絵です！
+This time it's a crossover illustration!
 
-ハローウィンはもうすぐだから、甜花ちゃんとイリヤちゃんが一緒にトリックオアトリートに行きます！
+Since Halloween is soon, Tenka-chan and Illya-chan are going out trick-or-treating together!
 
-コスチュームはウィッチかデビルかウェアウルフか他のかわいいコスチュームでもいいんです。
+For their costumes, something like a witch, devil, wearwolf, or any other cute costume would be good.
 
 Thank you very much!
 {% end %}
