@@ -8,7 +8,6 @@ nsfw = false
 accepted_date = 2020-09-04T21:04:42.962Z
 twitter_handle = "yoru_nine"
 skeb_handle = "yoru_nine"
-
 +++
 
 すみません、まだ日本語を説明文を書いていません！

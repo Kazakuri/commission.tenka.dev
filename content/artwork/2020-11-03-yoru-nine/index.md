@@ -1,6 +1,6 @@
 +++
 date = 2020-11-03T12:15:49.797Z
-title = "夜ない"
+title = "Yoru Nine"
 slug = "2020-11-03-yoru-nine"
 
 [extra]
@@ -16,7 +16,7 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-夜ないNice to meet you, <TODO>!
+Nice to meet you, Yoru Nine!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
