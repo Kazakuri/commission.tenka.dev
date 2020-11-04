@@ -8,7 +8,6 @@ nsfw = false
 accepted_date = 2020-10-25T19:27:24.203Z
 twitter_handle = "chronica___"
 skeb_handle = "chronica_vrc"
-
 +++
 
 すみません、まだ日本語を説明文を書いていません！

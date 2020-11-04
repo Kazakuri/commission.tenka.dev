@@ -8,7 +8,6 @@ nsfw = false
 accepted_date = 2020-10-25T19:27:24.203Z
 twitter_handle = "chronica___"
 skeb_handle = "chronica_vrc"
-
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,7 +15,7 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-𝕔𝕙𝕣𝕠𝕟𝕚𝕔𝕒Nice to meet you, <TODO>!
+Nice to meet you, 𝕔𝕙𝕣𝕠𝕟𝕚𝕔𝕒!
 
 Thank you for the appeal!
 
