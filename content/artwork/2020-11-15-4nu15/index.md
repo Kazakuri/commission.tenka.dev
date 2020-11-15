@@ -1,6 +1,6 @@
 +++
 date = 2020-11-15T11:25:53.963Z
-title = "んぬ"
+title = "Nnu"
 slug = "2020-11-15-4nu15"
 
 [extra]
@@ -16,17 +16,17 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-んぬNice to meet you, <TODO>!
+Nice to meet you, Nnu!
 
 Thank you for the appeal!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-今日甜花ちゃんは暇なんだから、家で部屋着を着てくつろいでいます！
+Tenka-chan doesn't have anything to do today, so she's relaxing at home!
 
-気楽な雰囲気なのに、ポーズや部屋着が思わずにエロくなってしまいます。
+Because of the carefree atmosphere, her outfit and pose make her unintentionally erotic.
 
-他の詳細はお任せします！
+I'll leave the other details up to you!
 
 Thank you very much!
 {% end %}
