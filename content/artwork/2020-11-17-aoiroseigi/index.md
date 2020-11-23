@@ -1,6 +1,6 @@
 +++
 date = 2020-11-17T13:51:45.941Z
-title = "青ぎ"
+title = "Aogi"
 slug = "2020-11-17-aoiroseigi"
 
 [extra]
@@ -16,7 +16,7 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-青ぎNice to meet you, <TODO>!
+Nice to meet you, Aogi!
 
 Thank you for the appeal!
 
