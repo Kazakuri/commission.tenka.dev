@@ -1,6 +1,6 @@
 +++
 date = 2020-12-07T13:27:55.747Z
-title = "きょむ殿下🌑🌌アイコン企画〆12/15"
+title = "Kyom Denka"
 slug = "2020-12-07-kyomkyom11750"
 
 [extra]
@@ -16,13 +16,13 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-きょむ殿下Nice to meet you, <TODO>!
+Nice to meet you, Kyom Denka!
 
 Thank you for the appeal!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-大体テーマは冬ですが、詳細はお任せします。
+The general theme is winter, but I'll leave the details up to you.
 
 Thank you very much!
 {% end %}
