@@ -8,7 +8,20 @@ nsfw = true
 accepted_date = 2020-12-11T06:10:05.984Z
 twitter_handle = "inusakahaya"
 skeb_handle = "inusakahaya"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+  "image5.png",
+  "image6.png",
+  "image7.png",
+  "image8.png",
+  "image9.png",
+  "image10.png",
+  "image11.png",
+  "image12.png",
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
