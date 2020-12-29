@@ -1,6 +1,6 @@
 +++
 date = 2020-12-29T04:49:23.446Z
-title = "小路あゆむさん🧸くまぷろ島🍒"
+title = "小路あゆむ"
 slug = "2020-12-29-kuma-sasa"
 
 [extra]
@@ -8,7 +8,14 @@ nsfw = true
 accepted_date = 2020-12-25T04:30:59.283Z
 twitter_handle = "kuma_sasa"
 skeb_handle = "kuma_sasa"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+  "image5.png",
+  "image6.png",
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！

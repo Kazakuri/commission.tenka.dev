@@ -1,6 +1,6 @@
 +++
 date = 2020-12-29T04:49:23.446Z
-title = "小路あゆむさん🧸くまぷろ島🍒"
+title = "Shouji Ayumu"
 slug = "2020-12-29-kuma-sasa"
 
 [extra]
@@ -8,7 +8,14 @@ nsfw = true
 accepted_date = 2020-12-25T04:30:59.283Z
 twitter_handle = "kuma_sasa"
 skeb_handle = "kuma_sasa"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+  "image5.png",
+  "image6.png",
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,15 +23,15 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-小路あゆむNice to meet you, <TODO>!
+Nice to meet you, Shouji Ayumu!
 
-ちっちゃなおなかのOVAを見てから小路あゆむさんの同人誌を発掘してで大ファンになりました！！
+After watching the OVA of "Chiccha na Onaka" I discovered your doujinshi and became a big fan of yours!!
 
-オリキャラのみか二次創作も大丈夫とかをわからませんが、もしよければ、「小女ラムネ」の「足立甜花」を描いてお願いしたいんです！
+I'm not sure if you only accept requests for original characters or if secondary creations are fine too, but if you'd like, I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-どんな甜花ちゃんを描くのか気になるから、テーマなどはお任せします！
+I'm curious to see what kind of Tenka-chan you'll draw, so I'll leave the theme up to you!
 
-NSFWはONだけど、エッチなレベルもお任せします。
+I've turned NSFW on, but I'll also leave the NSFW level up to you.
 
 Thank you very much!
 {% end %}
