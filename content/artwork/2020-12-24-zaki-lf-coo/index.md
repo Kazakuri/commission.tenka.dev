@@ -1,6 +1,6 @@
 +++
 date = 2020-12-24T10:44:02.671Z
-title = "ZAKI / イヴちゃんとっ！連載準備中"
+title = "ZAKI"
 slug = "2020-12-24-zaki-lf-coo"
 
 [extra]
@@ -16,17 +16,17 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-ZAKIHello, <TODO>!
+Hello, ZAKI!
 
 Thank you for the appeal!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-プールかビーチで甜花ちゃんが男水着チャレンジにしています！
+Tenka-chan is doing the boy's swimsuit challenge at the beach or a pool!
 
-こういう露出があるから、顔がやっぱり真っ赤になります！
+The exhibitionism has caused her face to go completely red!
 
-他の詳細はお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}

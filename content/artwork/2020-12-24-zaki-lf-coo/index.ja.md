@@ -1,6 +1,6 @@
 +++
 date = 2020-12-24T10:44:02.671Z
-title = "ZAKI / イヴちゃんとっ！連載準備中"
+title = "ZAKI"
 slug = "2020-12-24-zaki-lf-coo"
 
 [extra]
