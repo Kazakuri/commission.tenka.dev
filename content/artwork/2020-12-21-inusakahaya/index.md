@@ -1,14 +1,27 @@
 +++
 date = 2020-12-21T17:23:18.090Z
-title = "犬坂はや🔞Skeb・依頼受付中"
+title = "Inusaka Haya"
 slug = "2020-12-21-inusakahaya"
 
 [extra]
-nsfw = false
+nsfw = true
 accepted_date = 2020-12-11T06:10:05.984Z
 twitter_handle = "inusakahaya"
 skeb_handle = "inusakahaya"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+  "image5.png",
+  "image6.png",
+  "image7.png",
+  "image8.png",
+  "image9.png",
+  "image10.png",
+  "image11.png",
+  "image12.png",
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,15 +29,15 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-犬坂はやNice to meet you, <TODO>!
+Nice to meet you, Inusaka Haya!
 
-もしよかったら、I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
+If you'd like、I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-テーマはクリスマスを祝っているの甜花ちゃんです！
+The theme is Tenka-chan celebrating Christmas!
 
-ちょっとエッチなサンタ衣装でプレゼントをあげています！
+She's giving me a present in a slightly lewd Santa costume!
 
-詳細のことが下手なので、他の詳細はお任せします。
+I'm bad at coming up with details, so I'll leave the details up to you.
 
 Thank you very much!
 {% end %}

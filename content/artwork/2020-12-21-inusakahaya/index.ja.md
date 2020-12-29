@@ -1,10 +1,10 @@
 +++
 date = 2020-12-21T17:23:18.090Z
-title = "犬坂はや🔞Skeb・依頼受付中"
+title = "犬坂はや"
 slug = "2020-12-21-inusakahaya"
 
 [extra]
-nsfw = false
+nsfw = true
 accepted_date = 2020-12-11T06:10:05.984Z
 twitter_handle = "inusakahaya"
 skeb_handle = "inusakahaya"
