@@ -9,6 +9,10 @@ accepted_date = 2020-11-17T04:30:42.732Z
 twitter_handle = "unamatida"
 skeb_handle = "unamatida"
 pixiv_id = "46621630"
+images = [
+  "image.png",
+  "image2.png",
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
