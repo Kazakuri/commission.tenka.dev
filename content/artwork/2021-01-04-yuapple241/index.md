@@ -1,10 +1,6 @@
 +++
 date = 2021-01-04T10:37:09.368Z
-<<<<<<< HEAD
-title = "君織"
-=======
 title = "Kimiori"
->>>>>>> feature/request_201167
 slug = "2021-01-04-yuapple241"
 
 [extra]
