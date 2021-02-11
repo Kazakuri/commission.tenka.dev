@@ -1,10 +1,10 @@
 +++
 date = 2021-02-05T06:56:35.534Z
-title = "橋弧のをと@お仕事募集中"
+title = "Hashicco Note"
 slug = "2021-02-05-hashicco-note"
 
 [extra]
-nsfw = true
+nsfw = false
 accepted_date = 2021-02-01T00:40:03.656Z
 twitter_handle = "hashicco_note"
 skeb_handle = "hashicco_note"
@@ -16,15 +16,15 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-橋弧のをとNice to meet you, <TODO>!
+Nice to meet you, Hashicco Note!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-アイドルの衣装で甜花ちゃんがダンスの練習をしています！
+Tenka-chan is practicing in her idol outfit!
 
-ポーズは一つの腕を頭の上に上げて、シャツを持ち上げお腹とおへそを見せつけています。
+With one arm raised over her head, her shirt is being lifted up to show off her armpit and belly button.
 
-他の詳細をお任せします。
+I've leave the other details up to you.
 
 Thank you very much!
 {% end %}

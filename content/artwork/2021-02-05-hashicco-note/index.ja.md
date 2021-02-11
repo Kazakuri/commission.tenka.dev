@@ -1,6 +1,6 @@
 +++
 date = 2021-02-05T06:56:35.534Z
-title = "橋弧のをと@お仕事募集中"
+title = "橋弧のをと"
 slug = "2021-02-05-hashicco-note"
 
 [extra]
