@@ -1,10 +1,10 @@
 +++
 date = 2021-01-08T07:13:39.407Z
-title = "しぃら🦈=͟͟͞͞"
+title = "Shiira"
 slug = "2021-01-08-nya-rl"
 
 [extra]
-nsfw = false
+nsfw = true
 accepted_date = 2020-11-30T00:46:20.406Z
 twitter_handle = "Nya_rl"
 skeb_handle = "Nya_rl"
@@ -16,15 +16,15 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-しぃらNice to meet you, <TODO>!
+Nice to meet you, Shiira!
 
-もしよかったら、I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
+If you'd like、I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-大体テーマは茶目な甜花ちゃんです。
+The general theme is a teasing Tenka-chan.
 
-からかっていたあとで、茶目っ気たっぷりな表情で見つめています。
+After teasing, Tenka is looking at you with a playful expression.
 
-他の詳細はお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}
