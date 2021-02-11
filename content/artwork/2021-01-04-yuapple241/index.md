@@ -1,6 +1,6 @@
 +++
 date = 2021-01-04T10:37:09.368Z
-title = "君織"
+title = "Kimiori"
 slug = "2021-01-04-yuapple241"
 
 [extra]
@@ -9,6 +9,10 @@ accepted_date = 2020-12-25T08:47:46.859Z
 twitter_handle = "yuapple241"
 skeb_handle = "yuapple241"
 pixiv_id = "55526519"
+variations = [
+  "image.png",
+  "image2.png",
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,17 +20,17 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-君織Nice to meet you, <TODO>!
+Nice to meet you, Kimiori!
 
 Thank you for the appeal!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-テーマは純真無垢エロです！
+The theme is an innocent and unintentional lewdness!
 
-甜花ちゃんがぬいぐるみを抱いていて、気付いていないがキャミソールが落ちて片乳全部見えます！
+Tenka-chan is holiding a stuffed animal, and without realizing it her camisole has slipped and is revealing her chest!
 
-他の詳細はお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}
