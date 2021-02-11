@@ -9,6 +9,13 @@ accepted_date = 2020-12-25T08:47:46.859Z
 twitter_handle = "yuapple241"
 skeb_handle = "yuapple241"
 pixiv_id = "55526519"
+<<<<<<< HEAD
+=======
+variations = [
+  "image.png",
+  "image2.png",
+]
+>>>>>>> feature/request_201167
 +++
 
 すみません、まだ日本語を説明文を書いていません！
