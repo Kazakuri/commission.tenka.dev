@@ -8,7 +8,6 @@ nsfw = true
 accepted_date = 2020-12-24T23:30:24.932Z
 twitter_handle = "mlbWLwBadeeh2ZA"
 skeb_handle = "mlbWLwBadeeh2ZA"
-
 +++
 
 すみません、まだ日本語を説明文を書いていません！
