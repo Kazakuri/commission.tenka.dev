@@ -9,6 +9,14 @@ accepted_date = 2020-12-30T07:49:36.764Z
 twitter_handle = "gomagomagoma623"
 skeb_handle = "gomagomagoma623"
 pixiv_id = "180106"
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+  "image5.png",
+  "image6.png",
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
