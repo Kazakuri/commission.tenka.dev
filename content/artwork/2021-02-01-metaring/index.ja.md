@@ -8,7 +8,15 @@ nsfw = true
 accepted_date = 2020-12-05T07:29:57.811Z
 twitter_handle = "metaring"
 skeb_handle = "metaring"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+  "image5.png",
+  "image6.png",
+  "image7.png"
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！

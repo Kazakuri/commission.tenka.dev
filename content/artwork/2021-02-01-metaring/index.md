@@ -8,7 +8,15 @@ nsfw = true
 accepted_date = 2020-12-05T07:29:57.811Z
 twitter_handle = "metaring"
 skeb_handle = "metaring"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+  "image5.png",
+  "image6.png",
+  "image7.png"
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,13 +24,13 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-メタルリングNice to meet you, <TODO>!
+Nice to meet you, Metaring!
 
-もしよければ、I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
+If you'd like, I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-大体テーマはトイレへ探している時に我慢できなくなって、おもらししちゃうった。
+The general theme is Tenka-chan couldn't hold it while looking for a washroom and wets herself.
 
-他の詳細はお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}
