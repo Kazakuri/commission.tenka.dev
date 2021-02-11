@@ -1,6 +1,6 @@
 +++
 date = 2021-01-09T09:58:24.454Z
-title = "月夜星海ⅠSkeb"
+title = "月夜星海"
 slug = "2021-01-09-hosi-huru-yoru2"
 
 [extra]

@@ -1,6 +1,6 @@
 +++
 date = 2021-01-09T09:58:24.454Z
-title = "月夜星海ⅠSkeb"
+title = "Seika"
 slug = "2021-01-09-hosi-huru-yoru2"
 
 [extra]
@@ -16,9 +16,9 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-星海Nice to meet you, <TODO>!
+Nice to meet you, Seika!
 
-Thank you for the appeal!こんなの優しい言葉をすごく嬉しいです！
+Thank you for the appeal! I was really happy to hear such nice words!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
