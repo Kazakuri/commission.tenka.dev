@@ -1,6 +1,6 @@
 +++
 date = 2021-03-19T05:28:33.593Z
-title = "タイガー🔞単行本発売中"
+title = "タイガー"
 slug = "2021-03-19-tiger-rmn"
 
 [extra]
@@ -9,6 +9,10 @@ accepted_date = 2021-02-05T15:59:08.895Z
 twitter_handle = "tiger_rmn"
 skeb_handle = "tiger_rmn"
 pixiv_id = "32277686"
+variations = [
+  "image.png",
+  "image2.png"
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
