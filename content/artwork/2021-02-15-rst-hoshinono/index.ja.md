@@ -8,7 +8,12 @@ nsfw = false
 accepted_date = 2021-02-08T21:31:35.918Z
 twitter_handle = "rst_hoshinono"
 skeb_handle = "rst_hoshinono"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png"
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！

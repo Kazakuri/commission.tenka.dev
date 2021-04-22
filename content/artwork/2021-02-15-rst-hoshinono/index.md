@@ -8,7 +8,12 @@ nsfw = false
 accepted_date = 2021-02-08T21:31:35.918Z
 twitter_handle = "rst_hoshinono"
 skeb_handle = "rst_hoshinono"
-
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png"
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,15 +21,15 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-☆Nice to meet you, <TODO>!
+Nice to meet you, ☆!
 
-アピールしてありがとうございました！
+Thank you for the appeal!
 
-もしよかったら、クロスオーバー絵を描いてお願いしたいんです。
+If it's okay, I'd like to ask for a crossover illustration.
 
-「小女ラムネ」の「足立甜花」と「プリズマ☆イリヤ」の「イリヤ」がラブラブなセッティングでキスしている！
+Tenka Adachi from Shoujo Ramune and Illya from Prisma Illya are kissing in a lovey-dovey setting!
 
-他の詳細をお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}
