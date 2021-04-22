@@ -1,6 +1,6 @@
 +++
 date = 2021-02-19T09:38:19.729Z
-title = "ここね🦀"
+title = "ここね"
 slug = "2021-02-19-coconeeeco"
 
 [extra]
@@ -9,6 +9,10 @@ accepted_date = 2021-02-01T12:06:42.032Z
 twitter_handle = "coconeeeco"
 skeb_handle = "coconeeeco"
 pixiv_id = "20898295"
+variations = [
+  "image.png",
+  "image2.png"
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
