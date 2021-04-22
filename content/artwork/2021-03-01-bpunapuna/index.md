@@ -1,6 +1,6 @@
 +++
 date = 2021-03-01T10:01:45.511Z
-title = "めうしゅ"
+title = "Meushu"
 slug = "2021-03-01-bpunapuna"
 
 [extra]
@@ -8,7 +8,10 @@ nsfw = false
 accepted_date = 2021-02-25T01:40:36.243Z
 twitter_handle = "BPunapuna"
 skeb_handle = "BPunapuna"
-
+variations = [
+  "image.png",
+  "image2.png"
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,7 +19,7 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-めうしゅNice to meet you, <TODO>!
+Nice to meet you, Meushu!
 
 Thank you for the appeal!
 

@@ -8,7 +8,10 @@ nsfw = false
 accepted_date = 2021-02-25T01:40:36.243Z
 twitter_handle = "BPunapuna"
 skeb_handle = "BPunapuna"
-
+variations = [
+  "image.png",
+  "image2.png"
+]
 +++
 
 すみません、まだ日本語を説明文を書いていません！
