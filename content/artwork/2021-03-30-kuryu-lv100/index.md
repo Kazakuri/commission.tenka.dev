@@ -1,6 +1,6 @@
 +++
 date = 2021-03-30T18:24:10.651Z
-title = "栗柚くりゅー💐エア冬コミ新刊"
+title = "Kuryu"
 slug = "2021-03-30-kuryu-lv100"
 
 [extra]
@@ -8,7 +8,6 @@ nsfw = false
 accepted_date = 2021-02-01T04:21:24.993Z
 twitter_handle = "kuryu_lv100"
 skeb_handle = "kuryu_lv100"
-
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,13 +15,13 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-栗柚くりゅーNice to meet you, <TODO>!
+Nice to meet you, Kuryu!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-甜花ちゃんがどうにか猫耳になっちゃいました！ 「あれ？何があった！？」って思っているのパニックな感じが良いと思います 。
+Somehow, Tenka-chan has grown cat ears! I think a panicked feeling of "Huh? What happened!?" would be good.
 
-他の詳細をお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}
