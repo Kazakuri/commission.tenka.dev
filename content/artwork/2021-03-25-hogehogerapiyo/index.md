@@ -16,15 +16,15 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-hogehogeNice to meet you, <TODO>!
+Nice to meet you, hogehoge!
 
-ちょっと遅くなってすみませんけど、Thank you for the appeal!
+Sorry for getting back to you a bit late, but thank you for the appeal!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-もうすぐ春なのに、カナダはまだ寒いです！だから、春っぽいの天気で甜花ちゃんが楽しんでいることが見たいです！
+It's almost spring but it's still really cold in Canada! Therefore I want to see Tenka having fun in spring-like weather!
 
-詳細はお任せします。
+I'll leave the details up to you.
 
 Thank you very much!
 {% end %}
