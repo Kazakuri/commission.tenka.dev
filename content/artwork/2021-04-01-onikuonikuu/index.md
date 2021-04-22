@@ -1,6 +1,6 @@
 +++
 date = 2021-04-01T13:11:05.179Z
-title = "芳田ぽこ"
+title = "Yoshida Poko"
 slug = "2021-04-01-onikuonikuu"
 
 [extra]
@@ -16,13 +16,13 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-芳田ぽこNice to meet you, <TODO>!
+Nice to meet you, Yoshida Poko!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-テーマはロリビッチ甜花ちゃんです！茶目っ気な表情な顔でパンツからスジ見せています。
+The theme is a bratty Tenka-chan. She's showing off her panties with a teasing face.
 
-他の詳細をお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}
