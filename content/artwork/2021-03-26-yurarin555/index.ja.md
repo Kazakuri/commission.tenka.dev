@@ -1,6 +1,6 @@
 +++
 date = 2021-03-26T09:57:19.772Z
-title = "yurarin（遊来りん）"
+title = "yurarin"
 slug = "2021-03-26-yurarin555"
 
 [extra]

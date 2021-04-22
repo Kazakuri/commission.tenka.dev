@@ -16,15 +16,15 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-yurarinNice to meet you, <TODO>!
+Nice to meet you, yurarin!
 
-yurarinさんの同人誌が大ファンです！
+I'm a huge fan of your doujinshi!
 
-もしよければ、I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
+If it's okay, I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-どんな甜花ちゃんを描くのか気になるから、テーマなどはお任せします！
+I'm curious to see what kind of Tenka-chan you'll draw, so I'll leave the theme up to you!
 
-NSFWはONだけど、エッチなレベルもお任せします。
+I've turned NSFW on, but I'll also leave the NSFW level up to you.
 
 Thank you very much!
 {% end %}
