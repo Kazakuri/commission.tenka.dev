@@ -1,10 +1,10 @@
 +++
 date = 2021-04-10T08:05:37.672Z
-title = "よもぎ　まな@skeb受付中"
+title = "よもぎまな"
 slug = "2021-04-10-yaeba808"
 
 [extra]
-nsfw = true
+nsfw = false
 accepted_date = 2021-03-30T14:54:42.308Z
 twitter_handle = "Mana_Nzmr"
 skeb_handle = "Yaeba808"
