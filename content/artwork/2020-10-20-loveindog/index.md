@@ -1,6 +1,6 @@
 +++
 date = 2020-10-20T04:10:43.190Z
-title = "桜庭光＠まどひ白きの神隠し５月２８日発売！"
+title = "Sakuraba Hikaru"
 slug = "2020-10-20-loveindog"
 
 [extra]
@@ -9,6 +9,10 @@ accepted_date = 2020-09-07T06:53:51.524Z
 twitter_handle = "loveindoghikaru"
 skeb_handle = "loveindog"
 pixiv_id = "1423422"
+variations = [
+  "image.png",
+  "image2.png",
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,9 +20,9 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-桜庭光Nice to meet you, <TODO>!
+Nice to meet you, Sakuraba Hikaru!
 
-もしよければ、I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
+If you'd like, I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
 I'll leave the theme up to you.
 
