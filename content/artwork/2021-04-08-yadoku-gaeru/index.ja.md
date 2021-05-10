@@ -1,6 +1,6 @@
 +++
 date = 2021-04-08T09:24:10.543Z
-title = "やどけろ/skeb募集中"
+title = "やどけろ"
 slug = "2021-04-08-yadoku-gaeru"
 
 [extra]

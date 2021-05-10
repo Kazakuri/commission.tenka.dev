@@ -1,6 +1,6 @@
 +++
 date = 2021-04-08T09:24:10.543Z
-title = "やどけろ/skeb募集中"
+title = "Yadokero"
 slug = "2021-04-08-yadoku-gaeru"
 
 [extra]
@@ -16,13 +16,13 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-やどけろNice to meet you, <TODO>!
+Nice to meet you, Yadokero!
 
-ちょっと遅くなってすみませんけど、Thank you for the appeal!
+I'm sorry for being a bit late, but thank you for the appeal!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-アイドルっぽい感じを描いたら嬉しいです。詳細はお任せします。
+I'd be happy if you could draw her with an idol-like feeling. I'll leave the details up to you.
 
 Thank you very much!
 {% end %}
