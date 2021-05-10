@@ -1,6 +1,6 @@
 +++
 date = 2021-04-27T09:36:48.413Z
-title = "緑星カバ@Skeb受付中！"
+title = "Midoriboshi Kaba"
 slug = "2021-04-27-kabao-1919"
 
 [extra]
@@ -9,6 +9,18 @@ accepted_date = 2021-04-17T00:23:19.736Z
 twitter_handle = "kabao_1919"
 skeb_handle = "kabao_1919"
 pixiv_id = "63579901"
+variations = [
+  "image.png",
+  "image2.png",
+  "image3.png",
+  "image4.png",
+  "image5.png",
+  "image6.png",
+  "image7.png",
+  "image8.png",
+  "image9.png",
+  "image10.png",
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,17 +28,17 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-緑星カバNice to meet you, <TODO>!
+Nice to meet you, Midoriboshi Kaba!
 
 Thank you for the appeal!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-大体テーマはエロペットになった甜花ちゃんです！首輪をつけています！
+The general theme is Tenka-chan who turned into an erotic pet and is wearing a collar!
 
-色んなフェチが好きなので、とくに描きたいものがあれば何でもいいです！
+I like a lot of different fetishes, so if there's anything specific you want to draw it's fine!
 
-詳細などお任せします。
+I'll leave the details up to you.
 
 Thank you very much!
 {% end %}
