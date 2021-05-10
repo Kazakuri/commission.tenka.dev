@@ -1,6 +1,6 @@
 +++
 date = 2021-05-01T04:36:47.578Z
-title = "ましまろのついったー"
+title = "Mashimaro"
 slug = "2021-05-01-msmrdaaaaa"
 
 [extra]
@@ -9,6 +9,10 @@ accepted_date = 2021-04-28T23:29:37.484Z
 twitter_handle = "msmrdaaaaa"
 skeb_handle = "msmrdaaaaa"
 pixiv_id = "15867481"
+variations = [
+  "image.png",
+  "image2.png",
+]
 +++
 
 Sorry, I haven't written anything about this commission yet.
@@ -16,17 +20,17 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-ましまろNice to meet you, <TODO>!
+Nice to meet you, Mashimaro!
 
 Thank you for the appeal!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-テーマはアイドルのパフォーマンスです！
+The theme is an idol performance.
 
-ステージで可愛くてキラキラアイドルパフォーマンスをしています！
+She's giving an cute and sparkly performance on stage!
 
-他の詳細はお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}
