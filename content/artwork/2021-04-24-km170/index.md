@@ -1,6 +1,6 @@
 +++
 date = 2021-04-24T10:33:34.491Z
-title = "🍣たんたんめん🍣"
+title = "Tantanmen"
 slug = "2021-04-24-km170"
 
 [extra]
@@ -16,11 +16,11 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-たんたんめんNice to meet you, <TODO>!
+Nice to meet you, Tantanmen!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-テーマなどお任せいたします。
+I'll leave the details up to you.
 
 Thank you very much!
 {% end %}
