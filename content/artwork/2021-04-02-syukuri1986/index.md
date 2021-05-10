@@ -1,6 +1,6 @@
 +++
 date = 2021-04-02T11:09:12.158Z
-title = "朱兎栗ぃむ"
+title = "Shuu Cream"
 slug = "2021-04-02-syukuri1986"
 
 [extra]
@@ -16,15 +16,15 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-朱兎栗ぃむNice to meet you, <TODO>!
+Nice to meet you, Shuu Cream!
 
 Thank you for the appeal!
 
 I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-テーマは甜花ちゃんがスカートをたくし上げて、パンツを見せます！
+The theme is Tenka-chan lifting up her skirt and showing off the panties!
 
-他の詳細はお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}
