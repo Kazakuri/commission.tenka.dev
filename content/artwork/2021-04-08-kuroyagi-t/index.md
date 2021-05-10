@@ -1,6 +1,6 @@
 +++
 date = 2021-04-08T12:49:39.117Z
-title = "黒柳 凪"
+title = "Kuro Yanagi"
 slug = "2021-04-08-kuroyagi-t"
 
 [extra]
@@ -16,13 +16,13 @@ Sorry, I haven't written anything about this commission yet.
 Please check back later.
 
 {% request() %}
-黒柳凪Nice to meet you, <TODO>!
+Nice to meet you, Kuro Yanagi!
 
-もしよければ、I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
+If you'd like, I'd like to ask you to draw Tenka Adachi from Shoujo Ramune.
 
-黒柳凪さんのスク水絵のがすごく好きなので、テーマはスク水を着てお尻を強調しているポーズをして甜花ちゃんです。
+I really love your school swimsuit images, so I would love if you could draw Tenka-chan in a school swimsuit with a pose that emphasised her butt.
 
-他の詳細をお任せします。
+I'll leave the other details up to you.
 
 Thank you very much!
 {% end %}
