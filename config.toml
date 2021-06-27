@@ -27,6 +27,7 @@ description = "A showcase of all the illustrations of Shoujo Ramune's Tenka Adac
 date_format = "%Y-%m-%d"
 days = " days"
 hours = " hours"
+seemore = "See More"
 
 delivery = "Delivery"
 fastest = "Fastest"
@@ -57,6 +58,7 @@ description = "俺のリクエストした「小女ラムネ」の「足立甜�
 date_format = "%Y年%m月%d日"
 days = "日間"
 hours = "時間"
+seemore = "もっと"
 
 delivery = "完了時間"
 fastest = "一番速い"

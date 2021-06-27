@@ -15,20 +15,26 @@
 {% set total = 0 %}
 {% set count = artwork.pages | length %}
 
-{% for p in artwork.pages %}
-  {% set end = p.date | date(format="%s") | int %}
-  {% set start = p.extra.accepted_date | date(format="%s") | int %}
-  {% set duration = (end - start) / 3600 | float | round %}
+{% for sub in artwork.subsections %}
+  {% set subsection = get_section(path=sub) %}
+  {% set pageCount = subsection.pages | length%}
+  {% set_global count = count + pageCount %}
 
-  {% if duration < lowest %}
-    {% set_global lowest = duration %}
-  {% endif %}
+  {% for p in subsection.pages %}
+    {% set end = p.date | date(format="%s") | int %}
+    {% set start = p.extra.accepted_date | date(format="%s") | int %}
+    {% set duration = (end - start) / 3600 | float | round %}
 
-  {% if duration > highest %}
-    {% set_global highest = duration %}
-  {% endif %}
+    {% if duration < lowest %}
+      {% set_global lowest = duration %}
+    {% endif %}
 
-  {% set_global total = total + duration %}
+    {% if duration > highest %}
+      {% set_global highest = duration %}
+    {% endif %}
+
+    {% set_global total = total + duration %}
+  {% endfor %}
 {% endfor %}
 
 <div class="post-item">
@@ -58,11 +64,16 @@
 </div>
 
 <script type="text/javascript">
-  const data = [
-    {% for p in artwork.pages | reverse %}
-      "{{ p.date }}",
-    {% endfor %}
-  ];
+  const data = {
+  {% for sub in artwork.subsections %}
+    {% set subsection = get_section(path=sub) %}
+    "{{subsection.title}}": [
+      {% for p in subsection.pages | reverse %}
+        "{{ p.date }}",
+      {% endfor %}
+    ],
+  {% endfor %}
+  };
 
   const countOptions = {
     chart: {
@@ -98,12 +109,12 @@
     legend: {
       enabled: false,
     },
-    series: [
-      {
-        name: '{{ trans(key="count", lang=lang) }}',
-        data: data.map((r, i) => [new Date(r).getTime(), i + 1])
+    series: Object.keys(data).map(key => {
+      return {
+        name: key,
+        data: data[key].map((r, i) => [new Date(r).getTime(), i + 1])
       }
-    ]
+    })
   }
 
   const countChart = new Highcharts.Chart(countOptions);
