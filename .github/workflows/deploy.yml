@@ -1,4 +1,5 @@
 name: commission.tenka.dev
+environment: CI
 on:
   push:
     branches: [ "master" ]
