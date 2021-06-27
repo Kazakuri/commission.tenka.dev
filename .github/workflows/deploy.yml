@@ -9,6 +9,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
+        with:
+          lfs: true
 
       - name: Unlock secrets
         uses: sliteteam/github-action-git-crypt-unlock@1.2.0
