@@ -38,7 +38,7 @@ async fn main() -> anyhow::Result<()> {
         file.write_all(markdown.as_bytes())?;
 
         let options = fs_extra::dir::CopyOptions::new();
-        fs_extra::copy_items(&commission.assets.images, &output_folder, &options)?;
+        let _ = fs_extra::copy_items(&commission.assets.images, &output_folder, &options);
 
         let first_image = match commission.assets.images.iter().next() {
           Some(i) => i.clone(),
@@ -47,7 +47,7 @@ async fn main() -> anyhow::Result<()> {
 
         match &commission.assets.banner {
           Some(banner) => {
-            fs_extra::copy_items(&vec! [ &banner ], &output_folder, &options)?;
+            let _ = fs_extra::copy_items(&vec! [ &banner ], &output_folder, &options);
           },
           None => {
             let blur = if commission.request.nsfw { 15.0 } else { 0.0 };
@@ -59,7 +59,7 @@ async fn main() -> anyhow::Result<()> {
 
         match &commission.assets.cover {
           Some(cover) => {
-            fs_extra::copy_items(&vec! [ &cover ] , &output_folder, &options)?;
+            let _ = fs_extra::copy_items(&vec! [ &cover ] , &output_folder, &options);
           },
           None => {
             commission::image::resize_to_fill(&first_image, 512, 512)?
