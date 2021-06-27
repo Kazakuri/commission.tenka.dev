@@ -30,7 +30,7 @@ jobs:
 
       - name: Install and Run Zola
         run: |
-          sudo snap install zola
+          sudo snap install --edge zola
           zola build
 
       - name: Publish
