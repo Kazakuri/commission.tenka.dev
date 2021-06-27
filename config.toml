@@ -1,7 +1,7 @@
 base_url = "https://commission.tenka.dev"
 
-title = "Tenka Commissions"
-description = "A showcase of all the illustrations of Shoujo Ramune's Tenka Adachi that I've commissioned."
+title = "Commissions"
+description = "A showcase of all the illustrations that I've commissioned."
 
 default_language = "en"
 
@@ -18,12 +18,12 @@ languages = [
 [translations]
 
 [translations.en]
-title = "Tenka Commissions"
+title = "Commissions"
 home = "Home"
 about = "About"
 stats = "Stats"
 appeals = "Appeals"
-description = "A showcase of all the illustrations of Shoujo Ramune's Tenka Adachi that I've commissioned."
+description = "A showcase of all the illustrations that I've commissioned."
 date_format = "%Y-%m-%d"
 days = " days"
 hours = " hours"
@@ -50,11 +50,11 @@ fiverr = "Fiverr"
 request = "Request"
 
 [translations.ja]
-title = "甜花ちゃんのコミッション"
+title = "コミッション"
 home = "ホーム"
 about = "サイトについて知る"
 stats = " スタッツ"
-description = "俺のリクエストした「小女ラムネ」の「足立甜花」のイラスト。"
+description = "俺のリクエストしたのイラスト。"
 date_format = "%Y年%m月%d日"
 days = "日間"
 hours = "時間"

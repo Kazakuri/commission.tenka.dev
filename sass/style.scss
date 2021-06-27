@@ -454,6 +454,7 @@ h6 {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid $accent;
+  align-items: start;
 
   .images {
     flex: 1;

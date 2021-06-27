@@ -75,6 +75,14 @@
   {% endfor %}
   };
 
+  let allDates = [];
+
+  Object.keys(data).forEach(key => {
+    allDates = allDates.concat(data[key]);
+  });
+
+  allDates.sort();
+
   const countOptions = {
     chart: {
       renderTo: 'countContainer',
@@ -97,22 +105,30 @@
         text: '{{ trans(key="count", lang=lang) }}'
       }
     },
+    tooltip: {
+      split: true,
+    },
     credits: {
       enabled: false
     },
     plotOptions: {
-      series: {
+      area: {
         stacking: 'normal',
-        pointWidth: 10,
       }
     },
     legend: {
       enabled: false,
     },
     series: Object.keys(data).map(key => {
+      let count = 0;
       return {
         name: key,
-        data: data[key].map((r, i) => [new Date(r).getTime(), i + 1])
+        data: allDates.map((r, i) => {
+          if (data[key].includes(r)) {
+            count += 1;
+          }
+          return [new Date(r).getTime(), count];
+        })
       }
     })
   }
