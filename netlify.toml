@@ -1,9 +1,0 @@
-[build]
-publish = "public"
-command = "cargo run --release && zola build"
-
-[build.environment]
-ZOLA_VERSION = "0.12.2"
-
-[context.deploy-preview]
-command = "cargo run --release && zola build --base-url $DEPLOY_PRIME_URL"
