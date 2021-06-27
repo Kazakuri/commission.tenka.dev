@@ -1,11 +1,11 @@
 name: commission.tenka.dev
-environment: CI
 on:
   push:
     branches: [ "master" ]
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: CI
 
     steps:
       - uses: actions/checkout@master
