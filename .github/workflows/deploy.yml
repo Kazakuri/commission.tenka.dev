@@ -23,7 +23,8 @@ jobs:
 
       - uses: actions-rs/cargo@v1
         with:
-          command: run --release
+          command: run 
+          args: --release
 
       - name: Install and Run Zola
         run: |
