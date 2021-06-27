@@ -1,9 +1,9 @@
 [build]
 publish = "public"
-command = "node decompress.js && zola build"
+command = "cargo run --release && zola build"
 
 [build.environment]
 ZOLA_VERSION = "0.12.2"
 
 [context.deploy-preview]
-command = "zola build --base-url $DEPLOY_PRIME_URL"
+command = "cargo run --release && zola build --base-url $DEPLOY_PRIME_URL"

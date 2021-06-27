@@ -1,0 +1,23 @@
+[package]
+name = "commission"
+version = "0.1.0"
+authors = ["Kazakuri <kazakuri@urus.ai>"]
+edition = "2018"
+
+[lib]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.41"
+async-walkdir = "0.2.0"
+chrono = "0.4.19"
+fs_extra = "1.2.0"
+futures = "0.3.15"
+image = "0.23.14"
+sailfish = "0.3.3"
+serde = { version = "1.0.126", features = [ "derive" ] }
+tokio = { version = "1.7.1", features = [ "full" ] }
+toml = "0.5.8"
+tracing = "0.1.26"
+tracing-subscriber = "0.2.18"
