@@ -1,0 +1,57 @@
+[request]
+approved = 2021-06-28T18:40:05.962Z
+completed = 2021-06-29T13:48:10.297Z
+nsfw = false
+
+body_english = """
+ひとさじさん、はじめまして！
+
+アピールしてありがとうございます！
+
+エマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします。
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+ひとさじさん、はじめまして！
+
+アピールしてありがとうございます！
+
+エマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします。
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わぁー！ツンツンで怒っちゃったエマちゃんもすごく可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わぁー！ツンツンで怒っちゃったエマちゃんもすごく可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "ひとさじ"
+handle = "hitosazi0000"
+twitter = "hitosazi0000"
+skeb = "hitosazi0000"
