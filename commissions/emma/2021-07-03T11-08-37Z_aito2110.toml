@@ -1,0 +1,58 @@
+[request]
+approved = 2021-06-29T18:55:03.184Z
+completed = 2021-07-03T11:08:37.734Z
+nsfw = false
+
+body_english = """
+Aitoさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+Aitoさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+すごく可愛いです
+ありがとうございます！
+"""
+
+boost_japanese = """
+すごく可愛いです
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "Aito"
+handle = "Aito2110"
+twitter = "Aito2110"
+skeb = "Aito2110"
+pixiv = 20645276
