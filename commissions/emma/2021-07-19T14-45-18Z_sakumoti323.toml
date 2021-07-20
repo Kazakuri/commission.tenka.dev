@@ -1,0 +1,57 @@
+[request]
+approved = 2021-07-03T09:55:15.744Z
+completed = 2021-07-19T14:45:18.615Z
+nsfw = false
+
+body_english = """
+桜もちさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+桜もちさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+すごく可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+すごく可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "桜もち"
+handle = "sakumoti323"
+twitter = "sakumoti323"
+skeb = "sakumoti323"
