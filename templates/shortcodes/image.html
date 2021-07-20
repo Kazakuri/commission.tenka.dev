@@ -13,5 +13,6 @@
 {% set asset = asset ~ path %}
 
 <a href="{{asset}}" class="image">
-  <img src="{{ resize_image(path=asset, width=700, op="fit_width") }}" />
+  {% set image = resize_image(path=asset, width=700, op="fit_width")  %}
+  <img src="{{ image.url }}" />
 </a>

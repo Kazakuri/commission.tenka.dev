@@ -1,5 +1,5 @@
 {% block html %}
-{% set lang = lang | default(value=config.default_language) %}
+{% set lang = lang | default(value="en") %}
 {% set date_format = trans(key="date_format", lang=lang) %}
 <!DOCTYPE html>
 <html lang="{{ lang }}">
@@ -43,7 +43,7 @@
 <body>
   {% block navbar %}
     <nav>
-      {% if lang == config.default_language %}
+      {% if lang == "en" %}
         <a href="{{ config.base_url }}">
       {% else %}
         <a href="{{ config.base_url }}/{{ lang }}">
@@ -53,7 +53,7 @@
         </span>
       </a>
       <div class="links">
-        {% if lang == config.default_language %}
+        {% if lang == "en" %}
           <a href="{{ config.base_url }}/">
             {{ trans(key="home", lang=lang) }}
           </a>
@@ -146,8 +146,9 @@
                   <a href="{{ page.permalink }}" title="{{ page.title ~ " - " ~ date }}">
                     <span class="heading title"> {{ page.title }} </span>
                     <div>
-                      <div class="{{ nsfw }}">
-                        <img src="{{ resize_image(path=cover, width=500, height=500, format="jpg") }}" />
+                      <div class="{{ nsfw }}"> 
+                        {% set image = resize_image(path=cover, width=500, height=500, format="jpg") %}
+                        <img src="{{ image.url }}" />
                       </div>
                     </div>
                     <span class="heading"> {{ date }} </span>

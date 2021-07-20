@@ -11,13 +11,7 @@ build_search_index = false
 compile_sass = true
 highlight_code = false
 
-languages = [
-  { code = "ja" },
-]
-
 [translations]
-
-[translations.en]
 title = "Commissions"
 home = "Home"
 about = "About"
@@ -49,7 +43,9 @@ fiverr = "Fiverr"
 
 request = "Request"
 
-[translations.ja]
+
+[languages.ja.translations]
+
 title = "コミッション"
 home = "ホーム"
 about = "サイトについて知る"

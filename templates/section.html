@@ -19,7 +19,8 @@
         <span class="heading title"> {{ page.title }} </span>
         <div>
           <div class="{{ nsfw }}">
-            <img src="{{ resize_image(path=cover, width=500, height=500, format="jpg") }}" />
+            {% set image = resize_image(path=cover, width=500, height=500, format="jpg")  %}
+            <img src="{{ image.url }}" />
           </div>
         </div>
         <span class="heading"> {{ date }} </span>

@@ -5,6 +5,7 @@
 {% block meta %}
 
 {% set banner = page.relative_path | split(pat="/") | slice(end=-1) | concat(with="banner.jpg") | join(sep="/") %}
+{% set image = resize_image(path=banner, width=1200, height=628, op="fill") %}
 
 <meta name="title" content="{{ page.title }}">
 <meta name="description" content="{{ page.content | striptags | truncate(length=100) }}">
@@ -13,13 +14,13 @@
 <meta property="og:url" content="{{ page.permalink }}">
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:description" content="{{ page.content | striptags | truncate(length=100) }}">
-<meta property="og:image" content="{{ resize_image(path=banner, width=1200, height=628, op="fill") }}">
+<meta property="og:image" content="{{ image.url }}">
 
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{ page.permalink }}">
 <meta property="twitter:title" content="{{ page.title }}">
 <meta property="twitter:description" content="{{ page.content | striptags | truncate(length=100) }}">
-<meta property="twitter:image" content="{{ resize_image(path=banner, width=1200, height=628, op="fill") }}">
+<meta property="twitter:image" content="{{ image.url }}">
 {% endblock meta %}
 
 {% block content %}
@@ -38,7 +39,8 @@
           {% set i = page.relative_path | split(pat="/") | slice(end=-1) | concat(with=image) | join(sep="/") %}
 
           <a href="{{ i }}" id="image">
-            <img src="{{ resize_image(path=i, height=700, op="fit_height") }}" />
+            {% set image = resize_image(path=i, height=700, op="fit_height") %}
+            <img src="{{ image.url }}" />
           </a>
         {% endfor %}
       </div>
@@ -48,9 +50,10 @@
             {% for image in page.extra.variations %}
 
               {% set i = page.relative_path | split(pat="/") | slice(end=-1) | concat(with=image) | join(sep="/") %}
+              {% set img = resize_image(path=i, height=700, op="fit_height") %}
 
-              <a onclick="setImage('{{ image }}', '{{ resize_image(path=i, height=700, op="fit_height") }}')">
-                <img src="{{ resize_image(path=i, height=700, op="fit_height") }}" />
+              <a onclick="setImage('{{ image }}', '{{ img.url }}')">
+                <img src="{{ img.url }}" />
               </a>
             {% endfor %}
           </div>
