@@ -90,11 +90,6 @@
                 </a> ／
               {% endif %}
             {% endfor %}
-            {% if page.path == "/ja/" %}
-              <a href="/" class="dropdown-item">
-                English
-              </a> ／
-            {% endif %}
           {% endif %}
           
           {% if page.lang == "ja" %}
@@ -107,11 +102,6 @@
                 </a>
               {% endif %}
             {% endfor %}
-            {% if page.path == "/" %}
-              <a href="/ja" class="dropdown-item">
-                日本語
-              </a>
-            {% endif %}
           {% endif %}
         {% else %}
           <a href="{{ config.base_url }}">English</a> ／

@@ -8,22 +8,32 @@ jobs:
     environment: CI
 
     steps:
-      - uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@master
+      
+      - name: Restore LFS cache
+        uses: actions/cache@v2
         with:
-          lfs: true
+          path: .git/lfs
+          key: lfs-asset-cache-v1
+
+      - name: Git LFS pull
+        run: git lfs pull
 
       - name: Unlock secrets
         uses: sliteteam/github-action-git-crypt-unlock@1.2.0
         env:
           GIT_CRYPT_KEY: ${{ secrets.GIT_CRYPT_KEY }}
 
-      - uses: actions-rs/toolchain@v1
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
         with:
           profile: minimal
           toolchain: stable
           override: true
 
-      - uses: actions-rs/cargo@v1
+      - name: Run Rust app
+        uses: actions-rs/cargo@v1
         with:
           command: run 
           args: --release
