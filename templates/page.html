@@ -38,13 +38,14 @@
         {% for image in page.extra.variations | slice(end=1) %}
           {% set i = page.relative_path | split(pat="/") | slice(end=-1) | concat(with=image) | join(sep="/") %}
 
-          <a href="{{ i }}" id="image">
+          <a href="/{{ i }}" id="image">
             {% set image = resize_image(path=i, height=700, op="fit_height") %}
             <img src="{{ image.url }}" />
           </a>
         {% endfor %}
       </div>
-      {% if page.extra.variations %}
+      {% set variation_length = page.extra.variations | length %}
+      {% if variation_length > 1 %}
         <div class="variations">
           <div>
             {% for image in page.extra.variations %}

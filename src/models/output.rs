@@ -1,3 +1,5 @@
+use lazy_static::lazy_static;
+use regex::Regex;
 
 #[derive(serde::Serialize, Clone)]
 pub struct Output {
@@ -17,12 +19,19 @@ pub struct Extra {
   pub variations: Vec<String>,
 }
 
+lazy_static! {
+  static ref MS_REGEX: Regex = Regex::new("\\.[0-9]{1,3}Z").unwrap();
+}
+
 impl From<&crate::models::Commission> for Output {
   fn from(commission: &crate::models::Commission) -> Self {
+    let timestamp = commission.request.completed.to_string().replace(":", "-");
+    let timestamp = MS_REGEX.replace(&timestamp, "Z");
+
     Output {
       date: commission.request.completed.clone(),
       title: format!("{}", commission.creator.name),
-      slug: format!("{}-{}", commission.request.completed.to_string().replace(":", "-"), commission.creator.handle),
+      slug: format!("{}-{}", timestamp, commission.creator.handle),
       extra: Extra {
         accepted_date: commission.request.approved.clone(),
         nsfw: commission.request.nsfw,
