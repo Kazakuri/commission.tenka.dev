@@ -1,0 +1,58 @@
+[request]
+approved = 2021-07-21T22:51:42.343Z
+completed = 2021-08-04T09:01:40.955Z
+nsfw = false
+
+body_english = """
+いーたん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+いーたん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！すごく可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！すごく可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "いーたん＆mikokoたん"
+handle = "mikoko1"
+twitter = "mikoko1"
+skeb = "mikoko1"
+pixiv = 7899084
