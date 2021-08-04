@@ -1,0 +1,56 @@
+[request]
+approved = 2021-08-02T12:58:09.438Z
+completed = 2021-08-04T10:11:16.884Z
+nsfw = false
+
+body_english = """
+tamaneriさん、はじめまして！
+
+私のオリジナルキャラクターのエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+tamaneriさん、はじめまして！
+
+私のオリジナルキャラクターのエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+すごく可愛いです！
+エマちゃんと手をつないでいるのは最高です！
+ありがとうございます！
+"""
+
+boost_japanese = """
+すごく可愛いです！
+エマちゃんと手をつないでいるのは最高です！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "tamaneri"
+handle = "tamaneri2"
+twitter = "tamaneri2"
+skeb = "tamaneri2"
+pixiv = 38346148
