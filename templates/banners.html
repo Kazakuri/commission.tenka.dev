@@ -1,0 +1,31 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+<h2> {{ section.title }} </h2>
+<div class="banner_posts">
+  {% for page in section.pages %}
+    {% set cover = page.relative_path | split(pat="/") | slice(end=-1) | concat(with="banner.png") | join(sep="/") %}
+    
+    {% if page.extra["nsfw"] and page.extra["nsfw"] == true %}
+      {% set nsfw = "nsfw" %}
+    {% else %}
+      {% set nsfw = "" %}
+    {% endif %}
+
+    {% set date = page.date | date(format=date_format) %}
+    <div class="post">
+      <a href="{{ page.permalink }}" title="{{ page.title ~ " - " ~ date }}">
+        <span class="heading title"> {{ page.title }} </span>
+        <div>
+          <div class="{{ nsfw }}">
+            {% set image = resize_image(path=cover, width=1000, op="fit_width", format="jpg")  %}
+            <img src="{{ image.url }}" />
+          </div>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+{% endblock content %}

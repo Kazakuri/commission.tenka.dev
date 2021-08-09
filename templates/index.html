@@ -63,6 +63,9 @@
           <a href="{{ config.base_url }}/stats">
             {{ trans(key="stats", lang=lang) }}
           </a>
+          <a href="{{ config.base_url }}/banners">
+            {{ trans(key="banners", lang=lang) }}
+          </a>
         {% else %}
           <a href="{{ config.base_url }}/{{ lang }}/">
             {{ trans(key="home", lang=lang) }}
@@ -72,6 +75,9 @@
           </a>
           <a href="{{ config.base_url }}/{{ lang }}/stats">
             {{ trans(key="stats", lang=lang) }}
+          </a>
+          <a href="{{ config.base_url }}/{{ lang }}/banners">
+            {{ trans(key="banners", lang=lang) }}
           </a>
         {% endif %}
       </div>

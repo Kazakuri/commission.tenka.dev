@@ -280,9 +280,24 @@ nav {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
-.posts {
+ .posts {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+}
+
+.banner_posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .post {
+    margin-bottom: 2em;
+    width: 50%;
+  }
+  
+  .post span.heading.title {
+    font-size: 1.25em;
+  }
 }
 
 .seemore {

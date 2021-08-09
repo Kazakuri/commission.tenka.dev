@@ -32,11 +32,17 @@ jobs:
           toolchain: stable
           override: true
 
-      - name: Run Rust app
+      - name: Run Rust Generate app
         uses: actions-rs/cargo@v1
         with:
           command: run 
-          args: --release
+          args: --release --bin generate
+
+      - name: Run Rust Banner app
+        uses: actions-rs/cargo@v1
+        with:
+          command: run 
+          args: --release --bin banner
 
       - name: Install and Run Zola
         run: |
