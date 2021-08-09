@@ -291,8 +291,10 @@ nav {
   align-items: center;
 
   .post {
-    margin-bottom: 2em;
-    width: 50%;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 1000px;
   }
   
   .post span.heading.title {

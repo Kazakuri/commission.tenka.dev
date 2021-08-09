@@ -43,7 +43,9 @@
         {% for slug in page.extra.slugs %}
           <li>
             <a href="/{{ slug }}">
-              {{ slug }}
+              {% set slug_parts = slug | split(pat="/") %}
+              {% set artist = slug_parts[2] | split(pat="-") | slice(start=5) | join(sep="-") %}
+              {{ artist }}
             </a>
           </li>
         {% endfor %}
