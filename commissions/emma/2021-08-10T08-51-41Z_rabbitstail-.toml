@@ -1,0 +1,58 @@
+[request]
+approved = 2021-07-31T22:03:34.925Z
+completed = 2021-08-10T08:51:41.848Z
+nsfw = false
+
+body_english = """
+Pitangaさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+Pitangaさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "Pitanga【skeb受付中】"
+handle = "RabbitsTail_"
+twitter = "RabbitsTail_"
+skeb = "RabbitsTail_"
+pixiv = 78510
