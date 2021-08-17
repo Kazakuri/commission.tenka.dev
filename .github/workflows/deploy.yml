@@ -15,7 +15,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: .git/lfs
-          key: lfs-asset-cache-v1
+          key: lfs-asset-cache-v2
 
       - name: Git LFS pull
         run: git lfs pull
