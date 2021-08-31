@@ -2,4 +2,5 @@
 /static/processed_images
 /content/artwork/*/*/
 /content/banners/*/
+/content/stats/*
 /target

@@ -42,7 +42,7 @@
 
   <div class="post-body">
     <div class="post-content">
-      <h2> {{ trans(key="delivery", lang=lang) }} </h2>
+      <h2> {{ trans(key="requests", lang=lang) }} </h2>
       <div class="stat_line">
         <div>
           <h3> {{ trans(key="fastest", lang=lang) }} </h3>
@@ -55,6 +55,32 @@
         <div>
           <h3> {{ trans(key="slowest", lang=lang) }} </h3>
           <span> {{ highest / 24 | float | round }} {{ trans(key="days", lang=lang) }} </span>
+        </div>
+      </div>
+      <div class="stat_line">
+        <div>
+          <h3> {{ trans(key="amount", lang=lang) }} </h3>
+          {% if page.lang == "ja" %}
+            <span> {{ section.extra.amount | num_format }}円以上</span>
+          {% else %}
+            <span> Over ¥{{ section.extra.amount | num_format }}</span>
+          {% endif %}
+        </div>
+        <div>
+          <h3> {{ trans(key="boost", lang=lang) }} </h3>
+          {% if page.lang == "ja" %}
+            <span> {{ section.extra.boost | num_format }}円以上</span>
+          {% else %}
+            <span> Over ¥{{ section.extra.boost | num_format }}</span>
+          {% endif %}
+        </div>
+        <div>
+          <h3> {{ trans(key="total", lang=lang) }} </h3>
+          {% if page.lang == "ja" %}
+            <span> {{ section.extra.amount + section.extra.boost | num_format }}円以上</span>
+          {% else %}
+            <span> Over ¥{{ section.extra.amount + section.extra.boost | num_format }}</span>
+          {% endif %}
         </div>
       </div>
       <h2> {{ trans(key="totals", lang=lang) }} </h2>
