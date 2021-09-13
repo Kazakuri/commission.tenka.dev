@@ -1,20 +1,4 @@
-{% set asset = "" %}
-
-{% if page %}
-  {% for p in page.assets %}
-    {% if p is matching(path) %}
-      {% set_global asset = p %}
-    {% endif %}
-  {% endfor %}
-{% else %}
-  {% for p in section.components %}
-    {% set_global asset = asset ~ p ~ "/" %}
-  {% endfor %}
-{% endif %}
-
-{% set asset = asset ~ path %}
-
-<a href="{{ asset }}" class="image">
-  {% set image = resize_image(path=asset, width=700, op="fit_width")  %}
+<a href="{{ path }}" class="image">
+  {% set image = resize_image(path=path, width=700, op="fit_width")  %}
   <img src="{{ image.url }}" />
 </a>

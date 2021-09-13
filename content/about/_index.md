@@ -5,7 +5,7 @@ template = "section_content.html"
 
 Hey there, my name is Kazakuri and I’m an anime fan born in Canada! Back in February 2019, I discovered that one of my favourite English speaking artists was accepting commissions. I had never really been interested in commissioning art before then, but I had suddenly had a strong desire to commission an image from them. I figured that I’d finally have something that could represent me across various social media sites. A few short weeks after working up the courage to send them a DM, I had an adorable picture of Tenka Adachi from Shoujo Ramune to use across the web. It was love at first sight with that image, and I always went back to stare at it multiple times a day. In fact, I simplified the image and put it on a pair of shoes because I loved it so much.
 
-{{ image(path="IMG_20200103_004030.jpg") }}
+{{ image(path="about/IMG_20200103_004030.jpg") }}
 
 Later on that year, I commissioned several pieces of art of Shana from Shakugan no Shana. I host a link shortener based on her famous catchphrase, and I wanted to customize the site with some artwork that I had the rights to use. After those commissions, I figured that those would be more than enough for my needs and I wouldn’t need to spend any more money on commissioned art. But a month before Christmas I thought it’d be better to commission a custom Christmas-themed avatar, rather than Photoshopping a Santa hat onto my previous commission.
 
