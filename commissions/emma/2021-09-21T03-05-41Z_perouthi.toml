@@ -1,0 +1,58 @@
+[request]
+approved = 2021-09-17T03:58:03.033Z
+completed = 2021-09-21T03:05:41.696Z
+nsfw = false
+
+body_english = """
+うてさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+うてさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！すごく可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！すごく可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "うて@お仕事募集中"
+handle = "perouthi"
+twitter = "perouthi"
+skeb = "perouthi"
+pixiv = 7159590
