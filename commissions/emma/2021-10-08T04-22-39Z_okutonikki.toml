@@ -1,0 +1,58 @@
+[request]
+approved = 2021-09-09T23:59:22.966Z
+completed = 2021-10-08T04:22:39.553Z
+nsfw = false
+
+body_english = """
+白川憶人さん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+白川憶人さん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！すごく可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！すごく可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "白川憶人@skeb募集中"
+handle = "okutonikki"
+twitter = "okutonikki"
+skeb = "okutonikki"
+pixiv = 13307400
