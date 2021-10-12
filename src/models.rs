@@ -64,6 +64,7 @@ impl Banner {
 
     banner.slugs = banner.slugs.iter_mut().map(|s| {
       let path = format!("commissions/{}.toml", s);
+      println!("{}", path);
       let mut file = std::fs::File::open(&path).unwrap();
 
       let mut content = String::new();
