@@ -1,0 +1,60 @@
+[request]
+approved = 2021-09-29T16:52:57.697Z
+completed = 2021-10-16T14:30:22.815Z
+nsfw = false
+
+body_english = """
+かもロマさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+かもロマさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！可愛いです！
+エマちゃんの苺パラダイス！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！可愛いです！
+エマちゃんの苺パラダイス！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "かもロマ@skeb受付中"
+handle = "kamoromance614"
+twitter = "kamoromance614"
+skeb = "kamoromance614"
+pixiv = 23285223
