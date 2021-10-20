@@ -1,0 +1,57 @@
+[request]
+approved = 2021-09-26T01:17:19.566Z
+completed = 2021-10-19T14:11:33.621Z
+nsfw = false
+
+body_english = """
+凛さん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+凛さん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！すごく可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！すごく可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "凛*"
+handle = "nunnun5091"
+twitter = "nunnun5091"
+skeb = "nunnun5091"
