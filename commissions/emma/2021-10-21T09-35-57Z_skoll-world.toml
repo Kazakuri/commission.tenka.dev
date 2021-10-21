@@ -1,0 +1,60 @@
+[request]
+approved = 2021-10-18T05:17:01.718Z
+completed = 2021-10-21T09:35:57.622Z
+nsfw = false
+
+body_english = """
+skollさん、はじめまして！
+
+ちょっと遅くなってすみませんけど、アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです。
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+skollさん、はじめまして！
+
+ちょっと遅くなってすみませんけど、アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです。
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+うぉー！可愛いです！
+こういう表情がめっちゃ好きです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+うぉー！可愛いです！
+こういう表情がめっちゃ好きです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "skoll【絵のお仕事募集中です】"
+handle = "skoll_world"
+twitter = "skoll_world"
+skeb = "skoll_world"
+pixiv = 66842445
