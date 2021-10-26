@@ -1,0 +1,64 @@
+[request]
+approved = 2021-10-18T06:22:27.810Z
+completed = 2021-10-26T01:28:12.651Z
+nsfw = false
+
+body_english = """
+ゆずとろさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです。
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+ゆずとろさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いてお願いしたいんです。
+
+下のURLでは三面図を載せているツイートです。
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+うぉー！めっちゃ可愛いです！
+沢山のスイーツを食べるのエマちゃんは世界一可愛い！
+衣装も素敵です！
+ありがとうございます！　
+Happy Halloween!!
+"""
+
+boost_japanese = """
+うぉー！めっちゃ可愛いです！
+沢山のスイーツを食べるのエマちゃんは世界一可愛い！
+衣装も素敵です！
+ありがとうございます！　
+Happy Halloween!!
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "ゆずとろ@skeb中"
+handle = "toro_yztro"
+twitter = "toro_yztro"
+skeb = "toro_yztro"
+pixiv = 28173184
