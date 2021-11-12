@@ -1,0 +1,60 @@
+[request]
+approved = 2021-11-05T00:08:10.211Z
+completed = 2021-11-10T07:56:04.021Z
+nsfw = false
+
+body_english = """
+なのはさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+なのはさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！すごく可愛いです！
+クレープもめっちゃ美味しそう！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！すごく可愛いです！
+クレープもめっちゃ美味しそう！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "なのは@Skeb4件作業中"
+handle = "nanoha_wani"
+twitter = "nanoha_wani"
+skeb = "nanoha_wani"
+pixiv = 62868404
