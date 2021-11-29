@@ -1,0 +1,57 @@
+[request]
+approved = 2021-11-04T13:32:34.816Z
+completed = 2021-11-28T13:37:29.213Z
+nsfw = false
+
+body_english = """
+こやさん、こんにちは！
+
+またお世話になります！
+
+今回は私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+こやさん、こんにちは！
+
+またお世話になります！
+
+今回は私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！今回もとても可愛いです！
+いつもありがとうございます！
+"""
+
+boost_japanese = """
+わー！今回もとても可愛いです！
+いつもありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "こや🐣"
+handle = "illkoya"
+twitter = "illkoya"
+skeb = "illkoya"
