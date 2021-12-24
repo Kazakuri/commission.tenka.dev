@@ -1,0 +1,62 @@
+[request]
+approved = 2021-12-07T14:51:32.604Z
+completed = 2021-12-24T08:34:42.218Z
+nsfw = false
+
+body_english = """
+hogehogeさん、こんにちは！
+
+またお世話になります！
+
+今回は私のオリジナルキャラクターのエマちゃんを描いて頂きたいです！
+
+下のURLでは三面図を載せているツイートです！
+
+詳細はお任せします。
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+hogehogeさん、こんにちは！
+
+またお世話になります！
+
+今回は私のオリジナルキャラクターのエマちゃんを描いて頂きたいです！
+
+下のURLでは三面図を載せているツイートです！
+
+詳細はお任せします。
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+うぉー！すごい！
+すごく綺麗です！
+ありがとうございます！
+Merry Christmas!
+"""
+
+boost_japanese = """
+うぉー！すごい！
+すごく綺麗です！
+ありがとうございます！
+Merry Christmas!
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "hoge✏️Skeb"
+handle = "hogehogerapiyo"
+twitter = "hogehogerapiyo"
+skeb = "hogehogerapiyo"
+pixiv = 64432671
