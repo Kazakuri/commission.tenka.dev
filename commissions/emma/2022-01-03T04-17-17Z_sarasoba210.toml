@@ -1,0 +1,60 @@
+[request]
+approved = 2022-01-02T22:01:59.121Z
+completed = 2022-01-03T04:17:17.695Z
+nsfw = false
+
+body_english = """
+さらそばさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+さらそばさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！早い！
+とても可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！早い！
+とても可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "さらそば＠Skeb募集中"
+handle = "sarasoba210"
+twitter = "sarasoba21"
+skeb = "sarasoba210"
+pixiv = 273477
