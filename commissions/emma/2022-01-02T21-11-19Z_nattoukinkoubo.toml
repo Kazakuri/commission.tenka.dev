@@ -1,0 +1,57 @@
+[request]
+approved = 2021-12-23T04:40:30.912Z
+completed = 2022-01-02T21:11:19.664Z
+nsfw = false
+
+body_english = """
+納豆菌酵母さん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+納豆菌酵母さん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！とても可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！とても可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "納豆菌酵母"
+handle = "nattoukinkoubo"
+twitter = "nattoukinkoubo"
+skeb = "nattoukinkoubo"
