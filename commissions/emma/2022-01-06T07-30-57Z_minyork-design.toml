@@ -1,0 +1,60 @@
+[request]
+approved = 2021-12-21T00:35:43.077Z
+completed = 2022-01-06T07:30:57.317Z
+nsfw = false
+
+body_english = """
+MINさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+MINさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！可愛い！
+もしかした、エマちゃんとデート！？
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！可愛い！
+もしかした、エマちゃんとデート！？
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "MIN🧞@skeb募集中"
+handle = "minyork_design"
+twitter = "minyork_design"
+skeb = "minyork_design"
+pixiv = 75895177
