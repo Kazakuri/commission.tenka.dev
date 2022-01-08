@@ -1,0 +1,55 @@
+[request]
+approved = 2022-01-07T00:12:44.741Z
+completed = 2022-01-08T07:21:16.016Z
+nsfw = false
+
+body_english = """
+Hello, hello!
+
+I'll be in your care once again, Bepïn-chan!
+
+Just like last time, I'd love it if you could draw Emma again for me!
+
+I linked this Tweet thread to you last time too, but I've added a few extra outfits drawn by Emma's creator to the thread, so please feel free to draw one of those outfits instead if you want!
+
+I'll leave all the details up to you once again!
+
+Thanks again!
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+Hello, hello!
+
+I'll be in your care once again, Bepïn-chan!
+
+Just like last time, I'd love it if you could draw Emma again for me!
+
+I linked this Tweet thread to you last time too, but I've added a few extra outfits drawn by Emma's creator to the thread, so please feel free to draw one of those outfits instead if you want!
+
+I'll leave all the details up to you once again!
+
+Thanks again!
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+So cute! Thanks again!
+"""
+
+boost_japanese = """
+So cute! Thanks again!
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "Bepïn~chan (Pre-Debut) ☁️Vtuber☁️"
+handle = "BepBepBepin"
+twitter = "BepBepBepin"
+skeb = "BepBepBepin"
