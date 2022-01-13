@@ -1,0 +1,58 @@
+[request]
+approved = 2022-01-06T03:44:03.660Z
+completed = 2022-01-13T11:17:18.581Z
+nsfw = false
+
+body_english = """
+マッキィさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです！
+
+下のURLでは三面図と設定シートと他の衣装を載せているツイートスレッドです！
+
+詳細など全部お任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+マッキィさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです！
+
+下のURLでは三面図と設定シートと他の衣装を載せているツイートスレッドです！
+
+詳細など全部お任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+すごく可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+すごく可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "マッキィ@Skeb募集中"
+handle = "makkyohage"
+twitter = "makkyohage"
+skeb = "makkyohage"
+pixiv = 804036
