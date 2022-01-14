@@ -1,0 +1,58 @@
+[request]
+approved = 2021-12-15T01:32:46.435Z
+completed = 2022-01-14T03:27:19.126Z
+nsfw = false
+
+body_english = """
+水無月美桜さん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+もう見たことがあるけど、下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+水無月美桜さん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+もう見たことがあるけど、下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わぁ！すごく綺麗です！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わぁ！すごく綺麗です！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "水無月 美桜🌸フォロー通知来ないです。"
+handle = "MINAZUKI_MIOU"
+twitter = "MINAZUKI_MIOU"
+skeb = "MINAZUKI_MIOU"
+pixiv = 31293558
