@@ -1,0 +1,56 @@
+[request]
+approved = 2021-12-05T03:56:25.988Z
+completed = 2022-02-02T13:10:23.746Z
+nsfw = false
+
+body_english = """
+Ririさん、はじめまして！
+
+もしよかったら、私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+Ririさん、はじめまして！
+
+もしよかったら、私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！メイド服エマちゃん！
+めっちゃ可愛いです！
+衣装もとても素敵です！
+"""
+
+boost_japanese = """
+わー！メイド服エマちゃん！
+めっちゃ可愛いです！
+衣装もとても素敵です！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "Riri🌧タグした！"
+handle = "Ri0177"
+twitter = "Ri0177"
+skeb = "Ri0177"
+pixiv = 64513597
