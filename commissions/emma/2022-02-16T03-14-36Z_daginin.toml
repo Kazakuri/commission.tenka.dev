@@ -1,0 +1,58 @@
+[request]
+approved = 2021-10-20T08:36:23.966Z
+completed = 2022-02-16T03:14:36.503Z
+nsfw = false
+
+body_english = """
+カルシウム人間さん、はじめまして！
+
+アピールしてありがとうございます！
+
+すごく良いアイデアと思います！メイド服のエマちゃんはきっと可愛いです！
+
+じゃあ、詳細などお任せします！
+
+下のURLでは三面図を載せているツイートです！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+カルシウム人間さん、はじめまして！
+
+アピールしてありがとうございます！
+
+すごく良いアイデアと思います！メイド服のエマちゃんはきっと可愛いです！
+
+じゃあ、詳細などお任せします！
+
+下のURLでは三面図を載せているツイートです！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+とても可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+とても可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "野乃のはら🍼🍺Nohara_Nono🍺🍼漫画家Vtuber"
+handle = "daginin"
+twitter = "nononazu_1108"
+skeb = "daginin"
+pixiv = 438498
