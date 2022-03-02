@@ -1,5 +1,5 @@
 +++
-title = "エマ"
+title = "エマちゃん"
 sort_by = "date"
-weight = 2
+weight = 1
 +++
