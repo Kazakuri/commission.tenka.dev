@@ -1,0 +1,58 @@
+[request]
+approved = 2022-01-03T01:14:37.202Z
+completed = 2022-03-03T09:44:11.679Z
+nsfw = false
+
+body_english = """
+テイドーさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+テイドーさん、はじめまして！
+
+アピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図を載せているツイートです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！すごく可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！すごく可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "テイドー"
+handle = "taidanoyohojo"
+twitter = "taidanoyohojo"
+skeb = "taidanoyohojo"
+pixiv = 16794102
