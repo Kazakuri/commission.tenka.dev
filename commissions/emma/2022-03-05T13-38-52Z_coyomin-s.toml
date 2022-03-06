@@ -1,0 +1,58 @@
+[request]
+approved = 2021-12-07T13:24:21.189Z
+completed = 2022-03-05T13:38:52.548Z
+nsfw = false
+
+body_english = """
+こよみんさん、こんにちは！
+
+またお世話になります！
+
+今回は私のオリジナルキャラクターのエマちゃんを描いて頂きたいです！
+
+もう見た事がありますけど、下のURLでは三面図を載せているツイートです！
+
+詳細はお任せします。
+
+いつもありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+こよみんさん、こんにちは！
+
+またお世話になります！
+
+今回は私のオリジナルキャラクターのエマちゃんを描いて頂きたいです！
+
+もう見た事がありますけど、下のURLでは三面図を載せているツイートです！
+
+詳細はお任せします。
+
+いつもありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！可愛くて素敵です！
+いつもありがとうございます！
+"""
+
+boost_japanese = """
+わー！可愛くて素敵です！
+いつもありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "こよみん🌕"
+handle = "coyomin_s"
+twitter = "coyomin_s"
+skeb = "coyomin_s"
+pixiv = 61788
