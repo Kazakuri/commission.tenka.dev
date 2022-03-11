@@ -1,0 +1,58 @@
+[request]
+approved = 2022-03-05T00:03:30.381Z
+completed = 2022-03-11T10:38:50.274Z
+nsfw = false
+
+body_english = """
+Gitaroさん、はじめまして！
+
+遅くなってすみませんがアピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図と設定シートと他の衣装を載せているツイートスレッドです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+body_japanese = """
+Gitaroさん、はじめまして！
+
+遅くなってすみませんがアピールしてありがとうございます！
+
+私のオリジナルキャラクターのエマちゃんを描いて頂きたいです。
+
+下のURLでは三面図と設定シートと他の衣装を載せているツイートスレッドです！
+
+詳細などお任せします！
+
+ありがとうございます！
+
+https://twitter.com/kazakuri/status/1397562595662512130
+"""
+
+boost_english = """
+わー！めっちゃ可愛いです！
+ありがとうございます！
+"""
+
+boost_japanese = """
+わー！めっちゃ可愛いです！
+ありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "Gitaro/お仕事募集中"
+handle = "gitar0"
+twitter = "gitar0"
+skeb = "gitar0"
+pixiv = 64542203
