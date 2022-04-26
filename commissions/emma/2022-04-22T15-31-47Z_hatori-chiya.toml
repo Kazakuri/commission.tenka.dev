@@ -1,0 +1,60 @@
+[request]
+approved = 2022-03-13T05:52:52.012Z
+completed = 2022-04-22T15:31:47.628Z
+nsfw = true
+
+body_english = """
+ちやちゃん、こんにちは！
+
+またを世話になります！
+
+今回はエマちゃんの部屋着を描いて頂きたいです。
+
+下のURLではエマちゃんの部屋着を載せているツイートです！
+
+詳細などお任せします！
+
+いつもありがとうございます！
+
+https://twitter.com/kazakuri/status/1467638741481185280
+"""
+
+body_japanese = """
+ちやちゃん、こんにちは！
+
+またを世話になります！
+
+今回はエマちゃんの部屋着を描いて頂きたいです。
+
+下のURLではエマちゃんの部屋着を載せているツイートです！
+
+詳細などお任せします！
+
+いつもありがとうございます！
+
+https://twitter.com/kazakuri/status/1467638741481185280
+"""
+
+boost_english = """
+わ！めっちゃ可愛いです！
+ベランダで鳥さんと遊んでるエマちゃんは可愛すぎ！
+いつもありがとうございます！
+"""
+
+boost_japanese = """
+わ！めっちゃ可愛いです！
+ベランダで鳥さんと遊んでるエマちゃんは可愛すぎ！
+いつもありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "はとり ちや"
+handle = "Hatori_Chiya"
+twitter = "Hatori_Chiya"
+skeb = "Hatori_Chiya"
+pixiv = 40963813
