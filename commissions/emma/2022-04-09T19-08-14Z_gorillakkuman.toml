@@ -1,0 +1,50 @@
+[request]
+approved = 2022-03-13T23:48:27.548Z
+completed = 2022-04-09T19:08:14.833Z
+nsfw = false
+
+body_english = """
+くまちゃん、こんにちは！
+
+またお世話になります！
+
+今回はもう一度エマちゃんを描いて頂きたいです！
+
+詳細など全部お任せします！
+
+いつも本当にありがとうございます！
+"""
+
+body_japanese = """
+くまちゃん、こんにちは！
+
+またお世話になります！
+
+今回はもう一度エマちゃんを描いて頂きたいです！
+
+詳細など全部お任せします！
+
+いつも本当にありがとうございます！
+"""
+
+boost_english = """
+わぁ！とても素敵です！
+いつもありがとうございます！
+"""
+
+boost_japanese = """
+わぁ！とても素敵です！
+いつもありがとうございます！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "ごりらっくま🔞skeb受付中"
+handle = "gorillakkuman"
+twitter = "gorillakkuman"
+skeb = "gorillakkuman"
+pixiv = 64023161
