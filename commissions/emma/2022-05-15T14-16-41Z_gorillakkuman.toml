@@ -1,0 +1,50 @@
+[request]
+approved = 2022-05-05T22:23:47.506Z
+completed = 2022-05-15T14:16:41.799Z
+nsfw = false
+
+body_english = """
+くまちゃん、こんにちは！
+
+またお世話になります！
+
+今回はチアガールエマちゃんとチアガールごりらっくまちゃんと一緒の絵を描いて頂きたいです！
+
+ほかの詳細などお任せします！
+
+いつも本当にありがとうございます！
+"""
+
+body_japanese = """
+くまちゃん、こんにちは！
+
+またお世話になります！
+
+今回はチアガールエマちゃんとチアガールごりらっくまちゃんと一緒の絵を描いて頂きたいです！
+
+ほかの詳細などお任せします！
+
+いつも本当にありがとうございます！
+"""
+
+boost_english = """
+素敵です！
+いつもありがとう！
+"""
+
+boost_japanese = """
+素敵です！
+いつもありがとう！
+"""
+
+
+[payment]
+amount = 0
+boost = 0
+
+[creator]
+name = "ごりらっくま🔞skeb受付中"
+handle = "gorillakkuman"
+twitter = "gorillakkuman"
+skeb = "gorillakkuman"
+pixiv = 64023161
