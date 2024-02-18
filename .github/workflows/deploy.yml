@@ -54,6 +54,11 @@ jobs:
           command: run 
           args: --release --bin stats
 
+      - name: Run Rust Clean
+        uses: actions-rs/cargo@v1
+        with:
+          command: clean
+
       - name: Install and Run Zola
         run: |
           sudo snap install --edge zola
